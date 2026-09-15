@@ -1,0 +1,198 @@
+/* ==========================================================
+   Import czcionek (Arial i Ubuntu Mono) z Google Fonts
+   ========================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap');
+
+/* Przycisk "Do Góry" */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: 3px solid #C09858;
+  outline: none;
+  background-color: #161c2a;
+  color: #169dd5;
+  cursor: pointer;
+  padding: 15px; 
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+  width: 60px;
+  box-sizing: border-box;
+  text-align: center;
+}
+#myBtn:hover {
+  background-color: #C09858; 
+  color: #FFFFFF;         
+  border: 3px solid white;   
+}
+
+/* Menu nawigacyjne */
+.topnav {
+  overflow: hidden;
+  background-color: #161c2a;
+  position: relative;
+}
+.topnav #myLinks {
+  display: none;
+}
+.topnav a {
+  color: #C09858;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 30px;
+  font-weight: 600;
+  display: block;
+  transition: all 0.2s ease-in-out;
+}
+.topnav a.iconblock {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 3px solid #C09858;
+}
+.topnav a:hover {
+  background-color: #C09858; 
+  color: #FFFFFF;         
+  border: 3px solid white;   
+}
+.active {
+  background-color: #161c2a;
+  color: #98c13d;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 3px solid #C09858;
+}
+
+/* Klasy dla treści */
+.col.l500 {
+    width: 90%;
+}
+.content-text {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5rem;
+    color: #C09858;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nexus-text {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #C09858;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    letter-spacing: 1px;
+}
+
+/* PŁYWAJĄCY PRZYCISK LINKEDIN */
+.linkedin-btn {
+  display: block;
+  position: fixed;
+  bottom: 85px; 
+  right: 30px;
+  z-index: 99;
+  background-color: #161c2a;
+  color: #C09858;
+  border: 3px solid #C09858;
+  font-size: 18px;
+  padding: 15px; 
+  border-radius: 6px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  width: 60px;
+  box-sizing: border-box;
+}
+.linkedin-btn:hover {
+  background-color: #C09858; 
+  color: #FFFFFF;         
+  border: 3px solid white;   
+}
+
+/* PŁYWAJĄCY PRZYCISK GITHUB */
+.github-btn {
+  display: block;
+  position: fixed;
+  bottom: 150px; 
+  right: 30px;
+  z-index: 99;
+  background-color: #161c2a;
+  color: #C09858;
+  border: 3px solid #C09858;
+  font-size: 18px;
+  padding: 15px; 
+  border-radius: 6px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  width: 60px;
+  box-sizing: border-box; 
+}
+.github-btn:hover {
+  background-color: #C09858; 
+  color: #FFFFFF;         
+  border: 3px solid white;   
+}
+
+/* ======================================================= */
+/* PRZYCISK W TREŚCI (styl menu) - POPRAWIONA WYSOKOŚĆ */
+/* ======================================================= */
+.content-button {
+  display: block;
+  width: 100%;     
+  box-sizing: border-box; 
+  text-decoration: none;
+  font-family: 'Ubuntu Mono', monospace;
+  
+  /* === POPRAWKA WYSOKOŚCI (dopasowanie do menu) === */
+  font-size: 30px;     /* Taki sam jak .topnav a */
+  padding: 20px 24px;  /* Taki sam padding góra/dół (20px) jak .topnav a */
+  /* ================================================= */
+
+  font-weight: 600;
+  color: #C09858; 
+  background-color: #161c2a; 
+  border: 3px solid #C09858;
+  border-radius: 6px;
+  /* Usunięto 'margin-top' */
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+}
+
+.content-button:hover {
+  background-color: #C09858; 
+  color: #FFFFFF;         
+  border: 3px solid white;   
+}
+.content-button .fa {
+  margin-right: 10px;
+}
+
+/* Klasa zwężająca przycisk i centrująca go */
+.w-90 {
+  width: 90% !important; /* Nadpisuje 100% */
+  margin-left: auto;     /* Centruje przycisk */
+  margin-right: auto;    /* Centruje przycisk */
+}
+
+/* Klasa zwężająca przycisk i centrująca go */
+.w-560 {
+  width: 560px !important; /* Nadpisuje 100% */
+  margin-left: auto;     /* Centruje przycisk */
+  margin-right: auto;    /* Centruje przycisk */
+}
+
+.link {
+  color: #169dd5; /* Twój naturalny kolor */
+  text-decoration: none; /* Opcjonalnie - usuwa podkreślenie */
+}
+
+.link:hover {
+  color: #DC143C; /* Twój kolor po najechaniu */
+  text-decoration: none; /* Opcjonalnie */
+}
