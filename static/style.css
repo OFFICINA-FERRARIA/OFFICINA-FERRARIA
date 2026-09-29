@@ -1,198 +1,220 @@
 /* ==========================================================
-   Import czcionek (Arial i Ubuntu Mono) z Google Fonts
+   Import czcionek (tylko Ubuntu Mono z Google Fonts)
+   Arial jest fontem systemowym i nie wymaga importu.
    ========================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;600;700&display=swap');
 
-/* Przycisk "Do Góry" */
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: 3px solid #C09858;
-  outline: none;
-  background-color: #161c2a;
-  color: #169dd5;
-  cursor: pointer;
-  padding: 15px; 
-  border-radius: 6px;
-  transition: all 0.2s ease-in-out;
-  width: 60px;
-  box-sizing: border-box;
-  text-align: center;
-}
-#myBtn:hover {
-  background-color: #C09858; 
-  color: #FFFFFF;         
-  border: 3px solid white;   
-}
+/* ==========================================================
+   Elementy nawigacyjne i pływające
+   ========================================================== */
 
 /* Menu nawigacyjne */
 .topnav {
+  position: relative;
   overflow: hidden;
   background-color: #161c2a;
-  position: relative;
 }
+
 .topnav #myLinks {
   display: none;
 }
+
 .topnav a {
-  color: #C09858;
-  padding: 20px 20px;
-  text-decoration: none;
+  display: block;
+  padding: 20px;
   font-family: 'Ubuntu Mono', monospace;
   font-size: 30px;
   font-weight: 600;
-  display: block;
+  color: #c09858;
+  text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
+
 .topnav a.iconblock {
-  background: black;
-  display: block;
   position: absolute;
-  right: 0;
   top: 0;
-  cursor: pointer;
+  right: 0;
+  display: block;
+  background: #000000;
+  border: 3px solid #c09858;
   border-radius: 6px;
-  border: 3px solid #C09858;
+  cursor: pointer;
 }
+
 .topnav a:hover {
-  background-color: #C09858; 
-  color: #FFFFFF;         
-  border: 3px solid white;   
+  background-color: #c09858;
+  color: #ffffff;
+  border: 3px solid #ffffff;
 }
+
 .active {
   background-color: #161c2a;
   color: #98c13d;
+  border: 3px solid #c09858;
+  border-radius: 6px;
   cursor: pointer;
-  border-radius: 6px;
-  border: 3px solid #C09858;
 }
 
-/* Klasy dla treści */
-.col.l500 {
-    width: 90%;
-}
-.content-text {
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 1.5rem;
-    color: #C09858;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-.nexus-text {
-    font-family: 'Ubuntu Mono', monospace;
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #C09858;
-    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
-    letter-spacing: 1px;
-}
-
-/* PŁYWAJĄCY PRZYCISK LINKEDIN */
-.linkedin-btn {
-  display: block;
+/* Przycisk "Do Góry" */
+#myBtn {
   position: fixed;
-  bottom: 85px; 
   right: 30px;
+  bottom: 20px;
   z-index: 99;
-  background-color: #161c2a;
-  color: #C09858;
-  border: 3px solid #C09858;
-  font-size: 18px;
-  padding: 15px; 
-  border-radius: 6px;
-  text-align: center;
-  transition: all 0.2s ease-in-out;
+  display: none;
   width: 60px;
+  padding: 15px;
   box-sizing: border-box;
-}
-.linkedin-btn:hover {
-  background-color: #C09858; 
-  color: #FFFFFF;         
-  border: 3px solid white;   
-}
-
-/* PŁYWAJĄCY PRZYCISK GITHUB */
-.github-btn {
-  display: block;
-  position: fixed;
-  bottom: 150px; 
-  right: 30px;
-  z-index: 99;
-  background-color: #161c2a;
-  color: #C09858;
-  border: 3px solid #C09858;
   font-size: 18px;
-  padding: 15px; 
-  border-radius: 6px;
   text-align: center;
+  color: #169dd5;
+  background-color: #161c2a;
+  border: 3px solid #c09858;
+  border-radius: 6px;
+  outline: none;
+  cursor: pointer;
   transition: all 0.2s ease-in-out;
-  width: 60px;
-  box-sizing: border-box; 
-}
-.github-btn:hover {
-  background-color: #C09858; 
-  color: #FFFFFF;         
-  border: 3px solid white;   
 }
 
-/* ======================================================= */
-/* PRZYCISK W TREŚCI (styl menu) - POPRAWIONA WYSOKOŚĆ */
-/* ======================================================= */
+#myBtn:hover {
+  background-color: #c09858;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+/* Pływający przycisk LinkedIn */
+.linkedin-btn {
+  position: fixed;
+  right: 30px;
+  bottom: 85px;
+  z-index: 99;
+  display: block;
+  width: 60px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 18px;
+  text-align: center;
+  color: #c09858;
+  background-color: #161c2a;
+  border: 3px solid #c09858;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.linkedin-btn:hover {
+  background-color: #c09858;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+/* Pływający przycisk GitHub */
+.github-btn {
+  position: fixed;
+  right: 30px;
+  bottom: 150px;
+  z-index: 99;
+  display: block;
+  width: 60px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 18px;
+  text-align: center;
+  color: #c09858;
+  background-color: #161c2a;
+  border: 3px solid #c09858;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.github-btn:hover {
+  background-color: #c09858;
+  color: #ffffff;
+  border: 3px solid #ffffff;
+}
+
+/* ==========================================================
+   Typografia i kontenery treści
+   ========================================================== */
+
+.col.l500 {
+  width: 90%;
+}
+
+.content-text {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #c09858;
+  text-transform: uppercase;
+}
+
+/* Wariant dla dłuższych tekstów ciągłych (np. opis Katedry) */
+.content-text.prose {
+  font-size: 1.25rem;
+  text-transform: none;
+  line-height: 1.6;
+}
+
+.nexus-text {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #c09858;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* ==========================================================
+   Przyciski w sekcjach i linki
+   ========================================================== */
+
 .content-button {
   display: block;
-  width: 100%;     
-  box-sizing: border-box; 
-  text-decoration: none;
+  width: 100%;
+  padding: 20px 24px;
+  box-sizing: border-box;
   font-family: 'Ubuntu Mono', monospace;
-  
-  /* === POPRAWKA WYSOKOŚCI (dopasowanie do menu) === */
-  font-size: 30px;     /* Taki sam jak .topnav a */
-  padding: 20px 24px;  /* Taki sam padding góra/dół (20px) jak .topnav a */
-  /* ================================================= */
-
+  font-size: 30px;
   font-weight: 600;
-  color: #C09858; 
-  background-color: #161c2a; 
-  border: 3px solid #C09858;
-  border-radius: 6px;
-  /* Usunięto 'margin-top' */
-  transition: all 0.2s ease-in-out;
   text-align: center;
+  text-decoration: none;
+  color: #c09858;
+  background-color: #161c2a;
+  border: 3px solid #c09858;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
 }
 
 .content-button:hover {
-  background-color: #C09858; 
-  color: #FFFFFF;         
-  border: 3px solid white;   
+  background-color: #c09858;
+  color: #ffffff;
+  border: 3px solid #ffffff;
 }
+
 .content-button .fa {
   margin-right: 10px;
 }
 
-/* Klasa zwężająca przycisk i centrująca go */
+/* Klasy pomocnicze szerokości */
 .w-90 {
-  width: 90% !important; /* Nadpisuje 100% */
-  margin-left: auto;     /* Centruje przycisk */
-  margin-right: auto;    /* Centruje przycisk */
+  width: 90% !important;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-/* Klasa zwężająca przycisk i centrująca go */
 .w-560 {
-  width: 560px !important; /* Nadpisuje 100% */
-  margin-left: auto;     /* Centruje przycisk */
-  margin-right: auto;    /* Centruje przycisk */
+  width: 560px !important;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+/* Linki standardowe */
 .link {
-  color: #169dd5; /* Twój naturalny kolor */
-  text-decoration: none; /* Opcjonalnie - usuwa podkreślenie */
+  color: #169dd5;
+  text-decoration: none;
 }
 
 .link:hover {
-  color: #DC143C; /* Twój kolor po najechaniu */
-  text-decoration: none; /* Opcjonalnie */
+  color: #dc143c;
+  text-decoration: none;
 }
