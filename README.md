@@ -35,7 +35,7 @@ Rubin to życie, świadomość i gotowość systemu. Czerwony punkt to czuwanie,
 > *"To save it, science and faith must work together".*
 
 Więcej na: <br>
-**[officina-ferraria.github.io/OFFICINA-FERRARIA](https://officina-ferraria.github.io/OFFICINA-FERRARIA)**
+**[https://officina-ferraria.github.io/OFFICINA-FERRARIA](https://officina-ferraria.github.io/OFFICINA-FERRARIA)**
 
 <br>
 <hr width="40%">
@@ -52,7 +52,7 @@ The ruby represents life, awareness, and the system's readiness. The red point s
 > *"To save it, science and faith must work together".*
 
 More at: <br>
-**[officina-ferraria.github.io/OFFICINA-FERRARIA](https://officina-ferraria.github.io/OFFICINA-FERRARIA)**
+**[https://officina-ferraria.github.io/OFFICINA-FERRARIA](https://officina-ferraria.github.io/OFFICINA-FERRARIA)**
 
 <br>
 
@@ -63,8 +63,6 @@ More at: <br>
 **#PanieBożeJeśliTakaTwojaWola** **#PoślijMnie**
 
 `#TAKisTheWAY`
-
-`#OFFICINAFERRARIA`
 
 ### ✌️♻️🌌🚀🌎🌍🌏🛰🌌♻️✌️
 
@@ -78,13 +76,12 @@ More at: <br>
 
 <img src="OFFICINA-FERRARIA-PROJECT.jpeg" alt="OFFICINA-FERRARIA-PROJECT"/>
 
-**#OFFICINAFERRARIA**
+<br>
+<br>
 
 `#PROJECT`
 
 `#AtYourService`
-
-https://officina-ferraria.github.io/OFFICINA-FERRARIA
 
 Source File
 `#GoogleDrive:`
@@ -99,25 +96,15 @@ https://drive.google.com/file/d/1FlRobKfQQPVO854IQ-BEK5RSmWesfjJd
 
 <img src="OFFICINA-FERRARIA-SIGILLUM.jpeg" alt="OFFICINA-FERRARIA-SIGILLUM"/>
 
-<br><br>
+<br>
 
-### #OFFICINA-#FERRARIA-#SIGILLUM
-
-`#OFFICINAFERRARIA`
+### OFFICINA-FERRARIA-SIGILLUM
 
 ### ✌️♻️🌌🚀🌎🌍🌏🛰🌌♻️✌️
 
 `#PERFIDEMADVICTORIAM`
 
-<br>
-
-**[officina-ferraria.github.io/OFFICINA-FERRARIA](https://officina-ferraria.github.io/OFFICINA-FERRARIA)**
-
-<br>
-
 `#NFC` `#YubiKey` `#DualUse`
-
-<br>
 
 **@Yubico**
 
