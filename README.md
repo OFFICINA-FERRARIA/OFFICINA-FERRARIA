@@ -96,7 +96,7 @@ https://drive.google.com/file/d/1FlRobKfQQPVO854IQ-BEK5RSmWesfjJd
 
 <img src="BLOX-TAK-C5ISR.jpeg" alt="BLOX-TAK-C5ISR"/>
 
-<br>
+<br><br>
 
 https://youtube.com/post/UgkxuzZsmsuSneXaZMKMqU8f8JT_tX6Mlhs_?si=bP32eemKN367zJq-
 
@@ -108,7 +108,7 @@ https://youtube.com/post/UgkxuzZsmsuSneXaZMKMqU8f8JT_tX6Mlhs_?si=bP32eemKN367zJq
 
 <img src="OFFICINA-FERRARIA-SIGILLUM.jpeg" alt="OFFICINA-FERRARIA-SIGILLUM"/>
 
-<br><br>
+<br>
 
 ### OFFICINA-FERRARIA-SIGILLUM
 
