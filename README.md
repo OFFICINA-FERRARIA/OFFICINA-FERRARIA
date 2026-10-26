@@ -124,3 +124,41 @@ https://youtube.com/post/UgkxuzZsmsuSneXaZMKMqU8f8JT_tX6Mlhs_?si=bP32eemKN367zJq
 </div>
 
 ---
+
+<div align="center">
+
+<img src="Suport-Wsparcie.jpeg" alt="Suport-Wsparcie"/>
+
+<br>
+
+### `#Support` - `#IfYouCan`
+
+### `#Wesprzyj` - `#JesliJestesWStanie`
+
+### ✌️♻️🌌🚀🌎🌍🌏🛰️🌌♻️✌️
+
+<br>
+
+💳 **#PayPal:**<br>
+🔗 [https://www.paypal.com/paypalme/LukeBlueLOx](https://www.paypal.com/paypalme/LukeBlueLOx)
+
+<br>
+
+📲 **#PaysafeCard #Wallet:**<br>
+
+<br>
+
+👤 Beneficiary / Beneficjent: **Łukasz Andruszkiewicz**<br>
+🔢 Account / Nr konta: **76 2910 0035 9880 0000 0177 4953**<br>
+🌐 IBAN: **PL76 2910 0035 9880 0000 0177 4953**<br>
+🏛️ BIC (SWIFT): **BMPBPLP2XXX**<br>
+🏦 Bank: **Paysafe Prepaid Services Limited**<br>
+🏷️ Title / Tytuł: **Support / Wsparcie**
+
+<br>
+
+[https://officina-ferraria.github.io/OFFICINA-FERRARIA/#Rejestracja](https://officina-ferraria.github.io/OFFICINA-FERRARIA/#Rejestracja)
+
+</div>
+
+---
