@@ -6,10 +6,12 @@ This directory contains the production-ready 2D CAM laser cutting vector profile
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
+
 <div dir="auto">
 <h1 dir="auto">🇵🇱 Węzeł Taktyczny C5ISR — Obudowa Mechaniczna (Rev 1.2)</h1>
 </div>
 Ten katalog zawiera gotowe do produkcji profile wektorowe CAM 2D do cięcia laserowego oraz specyfikacje mechaniczne dla wzmocnionej, zewnętrznej obudowy węzła obserwacji akustyczno-optycznej C5ISR.
+
 </details>
 
 ---
@@ -68,10 +70,12 @@ Kluczowe podzespoły sprzętowe dla tego węzła zostały pomyślnie zamówione 
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
+
 *   **Plik Źródłowy:** `C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg`
 *   **Skala:** 1:1 (Rzeczywiste wymiary metryczne, milimetry)
 *   **Proces Cięcia:** Przemysłowy laser CNC CO2 / Fiber
 *   **Kompatybilność Sprzętowa:** Samsung Galaxy XCover 5 (Ścisła tolerancja dla osłony optycznej podwójnego aparatu i wewnętrznego luzu)
+
 </details>
 
 ---
@@ -115,6 +119,7 @@ Kluczowe podzespoły sprzętowe dla tego węzła zostały pomyślnie zamówione 
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
+
 *   **Główne Zawieszenie (Górna Płyta):** Środkowe wycięcie zaprojektowane dla zintegrowanego łożyska kołnierzowego F608 opierającego pręt gwintowany M8 / dynamiczną oś obrotu.
 *   **Wewnętrzna Przegroda Napędowa:** Bezpośrednie wycięcia pod serwo MG996R z metalową przekładnią i mosiężne dystanse dla jednostki ESP32.
 *   **Zarządzanie Termiczne:** Wycięcie w bocznej ściance dostosowane pod pasywnie chłodzony radiator z tłoczonego aluminium.
@@ -122,6 +127,7 @@ Kluczowe podzespoły sprzętowe dla tego węzła zostały pomyślnie zamówione 
     *   Dwie asymetryczne mikroporowate membrany akustyczne ePTFE (wodoodporne / przepuszczające parę).
     *   Dolny port pod dławnicę kablową M12 (IP68) dla zabezpieczonego spiralnego przewodu zasilającego USB-C.
 *   **Balast Środka Ciężkości (CoG):** Dwa dolne punkty kotwiczące pod śruby z uchem M4/M5 i karabińczyki, przenoszące zewnętrzną taktyczną kieszeń na powerbank stanowiącą przeciwwagę.
+
 </details>
 
 ---
@@ -136,9 +142,11 @@ Kluczowe podzespoły sprzętowe dla tego węzła zostały pomyślnie zamówione 
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
+
 1.  **Przygotowanie Krawędzi:** Usuń folię ochronną wzdłuż powierzchni łączeń. Oczyść powierzchnie klejenia izopropanolem (IPA) lub płynem antystatycznym.
 2.  **Klejenie Rozpuszczalnikowe:** Złóż złącza prostopadłe używając kleju kapilarnego (np. Acrifix 116 / 192 lub odpowiednika dla PMMA). Upewnij się, że zaszło pełne sieciowanie chemiczne.
 3.  **Wewnętrzne Bloki Montażowe:** Warstwowe, wewnętrzne narożne bloki konstrukcyjne ($15 \times 15$ mm, laminowane ze ścinek PMMA) mieszczą wtopione mosiężne gwinty (M3) do mocowania przedniej klapy serwisowej.
+
 </details>
 
 ---
