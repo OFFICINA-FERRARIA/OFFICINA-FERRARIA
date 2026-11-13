@@ -15,7 +15,7 @@
 
     <!-- 3. WEWNĘTRZNA PÓŁKA NOŚNA NA SERWO (120x80 mm) -->
     <rect x="290" y="10" width="120" height="80" />
-    <rect x="329.5" y="40" width="41" height="20" stroke="purple" /> <!-- Wycięcie na serwo MG996R -->
+    <rect x="319.5" y="40" width="41" height="20" stroke="purple" /> <!-- Wycięcie na serwo MG996R -->
 
     <!-- 4. FASADA FRONTOWA / KLAPA REWIZYJNA (260x128 mm) -->
     <rect x="10" y="110" width="260" height="128" />
