@@ -156,38 +156,42 @@ Kluczowe podzespoły sprzętowe dla tego węzła zostały pomyślnie zamówione 
 </div>
 
 ```xml
-<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" viewBox="0 0 1000 667" width="100%" height="100%">
-  <!-- Outer panels and cuts -->
-  <!-- Top Left Panel -->
-  <rect x="17" y="15" width="213" height="150" fill="none" stroke="#000000" stroke-width="1.5"/>
-  <circle cx="42" cy="90" r="8" fill="none" stroke="#0000ff" stroke-width="1.5"/>
-  <circle cx="123" cy="90" r="19" fill="none" stroke="#ff0000" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="600mm" height="400mm" viewBox="0 0 600 400">
+  <g stroke="black" stroke-width="0.5" fill="none">
+    
+    <!-- 1. DEKIEL GÓRNY (128x88 mm) -->
+    <rect x="10" y="10" width="128" height="88" />
+    <circle cx="74" cy="54" r="11" stroke="red" /> <!-- Otwór na łożysko 608 -->
+    <circle cx="25" cy="54" r="5" stroke="blue" /> <!-- Górna membrana ePTFE -->
+    
+    <!-- 2. DEKIEL DOLNY (128x88 mm) -->
+    <rect x="150" y="10" width="128" height="88" />
+    <circle cx="174" cy="54" r="2" stroke="black" /> <!-- Lewy otwór na hak M4 -->
+    <circle cx="254" cy="54" r="2" stroke="black" /> <!-- Prawy otwór na hak M4 -->
+    <circle cx="214" cy="34" r="5" stroke="blue" /> <!-- Dolna membrana ePTFE -->
+    <circle cx="214" cy="74" r="6" stroke="green" /> <!-- Przepust kablowy / Dławnica M12 -->
 
-  <!-- Top Center Panel -->
-  <rect x="250" y="15" width="214" height="150" fill="none" stroke="#000000" stroke-width="1.5"/>
-  <circle cx="291" cy="90" r="3" fill="none" stroke="#000000" stroke-width="1.5"/>
-  <circle cx="423" cy="90" r="3" fill="none" stroke="#000000" stroke-width="1.5"/>
-  <circle cx="357" cy="57" r="9" fill="none" stroke="#0000ff" stroke-width="1.5"/>
-  <circle cx="357" cy="125" r="11" fill="none" stroke="#00aa00" stroke-width="1.5"/>
+    <!-- 3. WEWNĘTRZNA PÓŁKA NOŚNA NA SERWO (120x80 mm) -->
+    <rect x="290" y="10" width="120" height="80" />
+    <rect x="319.5" y="40" width="41" height="20" stroke="purple" /> <!-- Wycięcie na serwo MG996R -->
 
-  <!-- Top Right Panel -->
-  <rect x="483" y="15" width="201" height="135" fill="none" stroke="#000000" stroke-width="1.5"/>
-  <rect x="548" y="66" width="70" height="34" fill="none" stroke="#880088" stroke-width="1.5"/>
+    <!-- 4. FASADA FRONTOWA / KLAPA REWIZYJNA (260x128 mm) -->
+    <rect x="10" y="110" width="260" height="128" />
+    <circle cx="16" cy="116" r="1.75" stroke="black" /> <!-- Otwory M3 -->
+    <circle cx="264" cy="116" r="1.75" stroke="black" />
+    <circle cx="16" cy="232" r="1.75" stroke="black" />
+    <circle cx="264" cy="232" r="1.75" stroke="black" />
 
-  <!-- Middle Left Panel (Cover Plate) -->
-  <rect x="17" y="183" width="434" height="215" fill="none" stroke="#000000" stroke-width="1.5"/>
-  <circle cx="27" cy="193" r="3" fill="none" stroke="#000000" stroke-width="1.5"/>
-  <circle cx="441" cy="193" r="3" fill="none" stroke="#000000" stroke-width="1.5"/>
-  <circle cx="27" cy="388" r="3" fill="none" stroke="#000000" stroke-width="1.5"/>
-  <circle cx="441" cy="388" r="3" fill="none" stroke="#000000" stroke-width="1.5"/>
+    <!-- 5. ŚCIANKA TYLNA - PEŁNA (260x128 mm) -->
+    <rect x="290" y="110" width="260" height="128" />
 
-  <!-- Middle Right Panel -->
-  <rect x="483" y="183" width="434" height="215" fill="none" stroke="#000000" stroke-width="1.5"/>
+    <!-- 6. ŚCIANKA BOCZNA LEWA - PEŁNA (260x80 mm) -->
+    <rect x="10" y="250" width="260" height="80" />
 
-  <!-- Bottom Left Panel -->
-  <rect x="17" y="416" width="434" height="135" fill="none" stroke="#000000" stroke-width="1.5"/>
+    <!-- 7. ŚCIANKA BOCZNA PRAWA Z RADIATOREM (260x80 mm) -->
+    <rect x="290" y="250" width="260" height="80" />
+    <rect x="370" y="270" width="100" height="40" stroke="orange" /> <!-- Wycięcie na radiator -->
 
-  <!-- Bottom Right Panel (Heatsink Cutout) -->
-  <rect x="483" y="416" width="434" height="135" fill="none" stroke="#000000" stroke-width="1.5"/>
-  <rect x="616" y="450" width="168" height="68" fill="none" stroke="#ffaa00" stroke-width="1.5"/>
+  </g>
 </svg>
+```
