@@ -37,7 +37,7 @@ The core hardware components for this node have been successfully ordered and pa
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
-
+<br>
 Kluczowe podzespoły sprzętowe dla tego węzła zostały pomyślnie zamówione i opłacone. W ramach pełnej transparentności finansowej projektu, surowe pliki PDF potwierdzające transakcję i wydatki zostały opublikowane bezpośrednio w tym repozytorium:
 * 📄 [Kamami_2026-11-07.pdf](./Kamami_2026-11-07.pdf) - Potwierdzenie zamówienia.
 * 📄 [statement_202631200044149.pdf](./statement_202631200044149.pdf) - Wyciąg płatności z konta Paysafecard.
