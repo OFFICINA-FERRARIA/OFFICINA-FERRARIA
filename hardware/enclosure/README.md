@@ -24,34 +24,80 @@ The core hardware components for this node have been successfully ordered and pa
 * 📄 [Kamami_2026-11-07.pdf](./Kamami_2026-11-07.pdf) - Order confirmation.
 * 📄 [statement_202631200044149.pdf](./statement_202631200044149.pdf) - Paysafecard payment statement.
 
-**Project Bill of Materials (BOM) & Costs** (Exchange rates via NBP, 2026-11-06: 1 USD = 3.93 PLN | 1 EUR = 4.39 PLN)
+The mechanical enclosure components have been quoted and fabricated by PlasticExpress. For full financial transparency, the manufacturing and transaction documents are available below:
+* 📄 [wycena10382.pdf](./wycena10382.pdf) - Laser cutting quote.
+* 📄 [FSPE202611266.pdf](./FSPE202611266.pdf) - VAT Invoice from Contra Sp. z o.o.
+* 📄 [statement_202631300096025.pdf](./statement_202631300096025.pdf) - Paysafecard payment statement.
+
+<div dir="auto">
+<h3 dir="auto">🛒 How to order</h3>
+</div>
+
+To automatically add the quoted enclosure components to your cart, click the **ORDER** link below (you must be logged into the PlasticExpress platform first).
+
+👉 **[ORDER ENCLOSURE](https://plasticexpress.pl/wycena/Qb2gM/a)**
+
+> **⚠️ IMPORTANT ORDER NOTE:**
+> In the order notes section on the website, you **must** include the link to the updated SVG file:
+> 🔗 `https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg?short_path=7bf3152`
+>
+> **Why is this important?**
+> The servo cutout was shifted by 10 mm after dimensional verification to ensure the servo drive axis perfectly aligns with the rod placed in the bearing.
+<br>
+
+**Project Bill of Materials (BOM) & Costs** (Exchange rates via NBP, 2026-11-13: 1 USD = 3.99 PLN | 1 EUR = 4.41 PLN)
 
 | Qty | Component | Unit Price (PLN) | Total (PLN) | Total (USD) | Total (EUR) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [Servo MG996R](https://kamami.pl/serwa-giant/204180-servo-mg996r-5906623440627.html) | 19.54 zł | 19.54 zł | $4.97 | €4.45 |
-| 1 | [XIAO ESP32S3 & Wio-SX1262 Kit (Meshtastic/LoRa)](https://kamami.pl/meshtastic/1194474-xiao-esp32s3-wio-sx1262-kit-zestaw-z-modulem-esp32s3-i-komunikacja-lora.html) | 62.16 zł | 62.16 zł | $15.82 | €14.16 |
-| 2 | USB-A to USB-C Cable (1m, Black) | 5.08 zł | 10.16 zł | $2.59 | €2.31 |
-| 1 | USB-C Adapter M-F (Angled, Side) | 9.16 zł | 9.16 zł | $2.33 | €2.09 |
-| - | Shipping (InPost Paczkomat) | - | 13.90 zł | $3.54 | €3.17 |
-| **-** | **TOTAL PAID** | **-** | **114.92 zł** | **$29.24** | **€26.18** |
+| 1 | [Servo MG996R](https://kamami.pl/serwa-giant/204180-servo-mg996r-5906623440627.html) | 19.54 zł | 19.54 zł | $4.90 | €4.43 |
+| 1 | [XIAO ESP32S3 & Wio-SX1262 Kit (Meshtastic/LoRa)](https://kamami.pl/meshtastic/1194474-xiao-esp32s3-wio-sx1262-kit-zestaw-z-modulem-esp32s3-i-komunikacja-lora.html) | 62.16 zł | 62.16 zł | $15.58 | €14.10 |
+| 2 | USB-A to USB-C Cable (1m, Black) | 5.08 zł | 10.16 zł | $2.55 | €2.30 |
+| 1 | USB-C Adapter M-F (Angled, Side) | 9.16 zł | 9.16 zł | $2.30 | €2.08 |
+| 1 | [Laser-cut PMMA Enclosure (PlasticExpress)](https://plasticexpress.pl/wycena/Qb2gM/a) | 71.34 zł | 71.34 zł | $17.88 | €16.18 |
+| - | Shipping (Kamami - InPost Paczkomat) | - | 13.90 zł | $3.48 | €3.15 |
+| - | Shipping (PlasticExpress - GLS) | - | 20.00 zł | $5.01 | €4.54 |
+| **-** | **TOTAL PAID** | **-** | **206.26 zł** | **$51.69** | **€46.77** |
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
 <br>
+
 Kluczowe podzespoły sprzętowe dla tego węzła zostały pomyślnie zamówione i opłacone. W ramach pełnej transparentności finansowej projektu, surowe pliki PDF potwierdzające transakcję i wydatki zostały opublikowane bezpośrednio w tym repozytorium:
 * 📄 [Kamami_2026-11-07.pdf](./Kamami_2026-11-07.pdf) - Potwierdzenie zamówienia.
 * 📄 [statement_202631200044149.pdf](./statement_202631200044149.pdf) - Wyciąg płatności z konta Paysafecard.
 
-**Zestawienie kosztów podzespołów** (Średni kurs NBP z dn. 2026-11-06: 1 USD = 3,93 PLN | 1 EUR = 4,39 PLN)
+Elementy mechaniczne obudowy zostały wycenione i wyprodukowane przez PlasticExpress. W ramach pełnej transparentności finansowej, dokumenty produkcyjne i transakcyjne są dostępne poniżej:
+* 📄 [wycena10382.pdf](./wycena10382.pdf) - Oferta cięcia laserowego.
+* 📄 [FSPE202611266.pdf](./FSPE202611266.pdf) - Faktura VAT (Contra Sp. z o.o.).
+* 📄 [statement_202631300096025.pdf](./statement_202631300096025.pdf) - Wyciąg płatności Paysafecard.
+
+<div dir="auto">
+<h3 dir="auto">🛒 Jak zamówić</h3>
+</div>
+
+Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższy przycisk **ZAMÓW** (wymagane jest wcześniejsze zalogowanie na platformie PlasticExpress).
+
+👉 **[ZAMÓW OBUDOWĘ](https://plasticexpress.pl/wycena/Qb2gM/a)**
+
+> **⚠️ WAŻNA UWAGA DO ZAMÓWIENIA:**
+> W polu uwag do zamówienia na stronie należy **bezwzględnie załączyć link** do zaktualizowanego pliku SVG:
+> 🔗 `https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg?short_path=7bf3152`
+>
+> **Dlaczego to ważne?**
+> Otwór na serwo został przesunięty o 10 mm po korekcie i zweryfikowaniu wymiarów, aby oś napędu serwa idealnie zgadzała się z prętem umieszczonym w łożysku.
+
+**Zestawienie kosztów podzespołów** (Średni kurs NBP z dn. 2026-11-13: 1 USD = 3,99 PLN | 1 EUR = 4,41 PLN)
 
 | Ilość | Podzespół | Cena jedn. (PLN) | Suma (PLN) | Suma (USD) | Suma (EUR) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [Serwo MG996R](https://kamami.pl/serwa-giant/204180-servo-mg996r-5906623440627.html) | 19,54 zł | 19,54 zł | $4.97 | €4.45 |
-| 1 | [Zestaw XIAO ESP32S3 & Wio-SX1262 Kit (Meshtastic/LoRa)](https://kamami.pl/meshtastic/1194474-xiao-esp32s3-wio-sx1262-kit-zestaw-z-modulem-esp32s3-i-komunikacja-lora.html) | 62,16 zł | 62,16 zł | $15.82 | €14.16 |
-| 2 | Przewód USB typ A - USB typ C (1m, czarny) | 5,08 zł | 10,16 zł | $2.59 | €2.31 |
-| 1 | Adapter USB typu C M-F (kątowy boczny) | 9,16 zł | 9,16 zł | $2.33 | €2.09 |
-| - | Wysyłka (Paczkomat InPost) | - | 13,90 zł | $3.54 | €3.17 |
-| **-** | **ZAPŁACONO W SUMIE** | **-** | **114,92 zł** | **$29.24** | **€26.18** |
+| 1 | [Serwo MG996R](https://kamami.pl/serwa-giant/204180-servo-mg996r-5906623440627.html) | 19,54 zł | 19,54 zł | $4.90 | €4.43 |
+| 1 | [Zestaw XIAO ESP32S3 & Wio-SX1262 Kit (Meshtastic/LoRa)](https://kamami.pl/meshtastic/1194474-xiao-esp32s3-wio-sx1262-kit-zestaw-z-modulem-esp32s3-i-komunikacja-lora.html) | 62,16 zł | 62,16 zł | $15.58 | €14.10 |
+| 2 | Przewód USB typ A - USB typ C (1m, czarny) | 5,08 zł | 10,16 zł | $2.55 | €2.30 |
+| 1 | Adapter USB typu C M-F (kątowy boczny) | 9,16 zł | 9,16 zł | $2.30 | €2.08 |
+| 1 | [Obudowa PMMA cięta laserowo (PlasticExpress)](https://plasticexpress.pl/wycena/Qb2gM/a) | 71,34 zł | 71,34 zł | $17.88 | €16.18 |
+| - | Wysyłka (Kamami - Paczkomat InPost) | - | 13,90 zł | $3.48 | €3.15 |
+| - | Wysyłka (PlasticExpress - Kurier GLS) | - | 20,00 zł | $5.01 | €4.54 |
+| **-** | **ZAPŁACONO W SUMIE** | **-** | **206,26 zł** | **$51.69** | **€46.77** |
 
 </details>
 
