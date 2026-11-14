@@ -111,6 +111,11 @@ Kluczowe podzespoły sprzętowe dla tego węzła zostały pomyślnie zamówione 
 
 *   **Primary Suspension (Top Plate):** Center cut-out designed for an integrated F608 flanged bearing carrying an M8 structural threaded rod / dynamic pivot axis.
 *   **Internal Drive Partition:** Direct cut-outs for MG996R continuous-rotation/metal-gear servo and brass standoffs for the ESP32 processing unit.
+
+![MG996R](9ME4004_D.webp)
+<br>
+Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
+
 *   **Thermal Management:** Side wall cut-out sized for a passively cooled, finned extruded aluminum heatsink interface.
 *   **Acoustic & Environmental Ports:**
     *   Dual offset ePTFE micro-porous acoustic vent membranes (waterproof / vapor-permeable).
@@ -119,9 +124,15 @@ Kluczowe podzespoły sprzętowe dla tego węzła zostały pomyślnie zamówione 
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
+<br>
 
 *   **Główne Zawieszenie (Górna Płyta):** Środkowe wycięcie zaprojektowane dla zintegrowanego łożyska kołnierzowego F608 opierającego pręt gwintowany M8 / dynamiczną oś obrotu.
 *   **Wewnętrzna Przegroda Napędowa:** Bezpośrednie wycięcia pod serwo MG996R z metalową przekładnią i mosiężne dystanse dla jednostki ESP32.
+
+![MG996R](9ME4004_D.webp)
+<br>
+Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
+
 *   **Zarządzanie Termiczne:** Wycięcie w bocznej ściance dostosowane pod pasywnie chłodzony radiator z tłoczonego aluminium.
 *   **Porty Akustyczne i Środowiskowe:**
     *   Dwie asymetryczne mikroporowate membrany akustyczne ePTFE (wodoodporne / przepuszczające parę).
