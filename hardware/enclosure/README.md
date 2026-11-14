@@ -70,7 +70,7 @@ Kluczowe podzespoły sprzętowe dla tego węzła zostały pomyślnie zamówione 
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
-
+<br>
 *   **Plik Źródłowy:** `C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg`
 *   **Skala:** 1:1 (Rzeczywiste wymiary metryczne, milimetry)
 *   **Proces Cięcia:** Przemysłowy laser CNC CO2 / Fiber
@@ -93,7 +93,7 @@ Kluczowe podzespoły sprzętowe dla tego węzła zostały pomyślnie zamówione 
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
-
+<br>
 | Parametr | Specyfikacja | Uwagi |
 | :--- | :--- | :--- |
 | **Materiał** | PMMA GS (Szkło akrylowe wylewane / Plexiglas) | **Tylko wylewane.** Nie zastępować akrylem wytłaczanym (XT) ze względu na ryzyko mikropęknięć od rozpuszczalników i naprężeń termicznych. |
@@ -153,7 +153,7 @@ Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
-
+<br>
 1.  **Przygotowanie Krawędzi:** Usuń folię ochronną wzdłuż powierzchni łączeń. Oczyść powierzchnie klejenia izopropanolem (IPA) lub płynem antystatycznym.
 2.  **Klejenie Rozpuszczalnikowe:** Złóż złącza prostopadłe używając kleju kapilarnego (np. Acrifix 116 / 192 lub odpowiednika dla PMMA). Upewnij się, że zaszło pełne sieciowanie chemiczne.
 3.  **Wewnętrzne Bloki Montażowe:** Warstwowe, wewnętrzne narożne bloki konstrukcyjne ($15 \times 15$ mm, laminowane ze ścinek PMMA) mieszczą wtopione mosiężne gwinty (M3) do mocowania przedniej klapy serwisowej.
