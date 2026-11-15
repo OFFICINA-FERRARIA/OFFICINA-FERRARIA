@@ -13,7 +13,7 @@ This directory contains the production-ready 2D CAM laser cutting vector profile
 <h1 dir="auto">🇵🇱 Węzeł Taktyczny C5ISR — Obudowa Mechaniczna (Rev 1.2)</h1>
 </div>
 Ten katalog zawiera gotowe do produkcji profile wektorowe CAM 2D do cięcia laserowego oraz specyfikacje mechaniczne dla wzmocnionej, zewnętrznej obudowy węzła obserwacji akustyczno-optycznej C5ISR.
-<br>
+<br><br>
 
 👉 **[REJESTRACJA](https://officina-ferraria.github.io/OFFICINA-FERRARIA/#Rejestracja)**
 
@@ -44,7 +44,11 @@ To automatically add the quoted enclosure components to your cart, click the **O
 
 > **⚠️ IMPORTANT ORDER NOTE:**
 > In the order notes section on the website, you **must** include the link to the updated SVG file:
-> 🔗 `https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg?short_path=7bf3152`
+> 🔗 
+>
+>```
+>https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg?short_path=7bf3152
+>```
 >
 > **Why is this important?**
 > The servo cutout was shifted by 10 mm after dimensional verification to ensure the servo drive axis perfectly aligns with the rod placed in the bearing.
@@ -86,7 +90,11 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 
 > **⚠️ WAŻNA UWAGA DO ZAMÓWIENIA:**
 > W polu uwag do zamówienia na stronie należy **bezwzględnie załączyć link** do zaktualizowanego pliku SVG:
-> 🔗 `https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg?short_path=7bf3152`
+> 🔗 
+>
+>```
+>https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg?short_path=7bf3152
+>```
 >
 > **Dlaczego to ważne?**
 > Otwór na serwo został przesunięty o 10 mm po korekcie i zweryfikowaniu wymiarów, aby oś napędu serwa idealnie zgadzała się z prętem umieszczonym w łożysku.
