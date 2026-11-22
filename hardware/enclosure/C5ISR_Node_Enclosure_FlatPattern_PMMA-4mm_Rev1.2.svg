@@ -4,8 +4,7 @@
     <!-- 1. DEKIEL GÓRNY (128x88 mm) -->
     <rect x="10" y="10" width="128" height="88" />
     <circle cx="74" cy="54" r="11" stroke="red" /> <!-- Otwór na łożysko 608 -->
-    <circle cx="25" cy="54" r="5" stroke="blue" /> <!-- Górna membrana ePTFE -->
-    
+    <circle cx="36.5" cy="54" r="5" stroke="blue" /> <!-- Górna membrana ePTFE -->
     <!-- 2. DEKIEL DOLNY (128x88 mm) -->
     <rect x="150" y="10" width="128" height="88" />
     <circle cx="174" cy="54" r="2" stroke="black" /> <!-- Lewy otwór na hak M4 -->
