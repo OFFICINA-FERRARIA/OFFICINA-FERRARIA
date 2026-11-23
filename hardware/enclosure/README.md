@@ -47,13 +47,13 @@ To automatically add the quoted enclosure components to your cart, click the **O
 > 🔗 
 >
 >```
->[https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg](https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg)
+>https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg
 >```
 >
 > **Why is this important?**
 > - The servo cutout was shifted by 10 mm to align the MG996R drive axis with the M8 rod in the F608 bearing, and 4× M3 servo mounting holes (`49.5 × 10 mm` pitch) were added.
 > - Added 4× M3 corner holes to the rear optical wall, enlarged and offset the bottom PG-13.5 gland cutout (`Ø22 mm`), and relocated the upper ePTFE acoustic membrane cutout to the left side wall (`175 mm` from bottom) to align with the top microphone of the Galaxy XCover 5.
-> - **Keep offcuts:** Do not discard cutouts from the servo slot (2× U-shaped smartphone retention clips), heatsink window (12× `15 × 15 mm` corner blocks), or the `120 × 8 mm` strip below the servo shelf (8× `15 × 8 mm` spacer blocks).
+> - **Keep offcuts:** Do not discard cutouts from the servo slot (2× U-shaped smartphone retention clips), heatsink window (12× `15 × 15 mm` blocks), or the `120 × 8 mm` strip below the servo shelf (8× `15 × 8 mm` spacer blocks).
 <br>
 
 **Project Bill of Materials (BOM) & Costs** (Exchange rates via NBP, 2026-11-23: 1 USD = 4.06 PLN | 1 EUR = 4.46 PLN)
@@ -69,7 +69,7 @@ To automatically add the quoted enclosure components to your cart, click the **O
 | - | Shipping (PlasticExpress - GLS) | - | 20.00 zł | $4.93 | €4.48 |
 | **-** | **SUBTOTAL (ELECTRONICS & ENCLOSURE)** | **-** | **206.26 zł** | **$50.80** | **€46.25** |
 
-**Hardware, Fasteners & Assembly Consumables (Castorama — 2026-11-18)**
+**Hardware, Fasteners & Assembly Consumables (Castorama — 2026-11-18 & Workshop Stock)**
 
 | Qty | Item | Unit Price (PLN) | Total (PLN) | Total (USD) | Total (EUR) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -80,7 +80,8 @@ To automatically add the quoted enclosure components to your cart, click the **O
 | 1 | Dragon IPA Cleaner Spray (Isopropanol) | 21.98 zł | 21.98 zł | $5.41 | €4.93 |
 | 1 | Dragon Distal 5-min Epoxy Adhesive (6 ml — **25 ml syringe recommended**) | 5.00 zł | 5.00 zł | $1.23 | €1.12 |
 | 1 | Painter's Masking Tape (24 mm × 50 m, joint alignment) | 4.98 zł | 4.98 zł | $1.23 | €1.12 |
-| **-** | **SUBTOTAL (CASTORAMA)** | **-** | **45.76 zł** | **$11.27** | **€10.26** |
+| 1 set | M3 Brass Hex Standoff Kit (`Aoqdqdqd 120 pcs`: `M3×20+6`, `M3×15+6`, `M3×10`, `M3×20`, `M3×6` screws — workshop stock) | 0.00 zł | 0.00 zł | $0.00 | €0.00 |
+| **-** | **SUBTOTAL (HARDWARE & CONSUMABLES)** | **-** | **45.76 zł** | **$11.27** | **€10.26** |
 | **-** | **GRAND TOTAL PAID** | **-** | **252.02 zł** | **$62.07** | **€56.51** |
 
 <details>
@@ -109,7 +110,7 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 > 🔗 
 >
 >```
->[https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg](https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg)
+>https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg
 >```
 >
 > **Dlaczego to ważne?**
@@ -130,7 +131,7 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 | - | Wysyłka (PlasticExpress - Kurier GLS) | - | 20,00 zł | $4.93 | €4.48 |
 | **-** | **SUMA CZĘŚCIOWA (ELEKTRONIKA I OBUDOWA)** | **-** | **206,26 zł** | **$50.80** | **€46.25** |
 
-**Elementy złączne i chemia montażowa (Castorama — 2026-11-18)**
+**Elementy złączne i chemia montażowa (Castorama — 2026-11-18 oraz zapas warsztatowy)**
 
 | Ilość | Pozycja | Cena jedn. (PLN) | Suma (PLN) | Suma (USD) | Suma (EUR) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -141,7 +142,8 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 | 1 | Dragon IPA Cleaner Spray (izopropanol do odtłuszczania) | 21,98 zł | 21,98 zł | $5.41 | €4.93 |
 | 1 | Klej epoksydowy Dragon Distal 5 min (6 ml — **zalecana strzykawka 25 ml**) | 5,00 zł | 5,00 zł | $1.23 | €1.12 |
 | 1 | Taśma malarska 24 mm × 50 m (pozycjonowanie ścianek) | 4,98 zł | 4,98 zł | $1.23 | €1.12 |
-| **-** | **SUMA CZĘŚCIOWA (CASTORAMA)** | **-** | **45,76 zł** | **$11.27** | **€10.26** |
+| 1 kpl. | Zestaw mosiężnych tulei dystansowych M3 (`Aoqdqdqd 120 szt.`: `M3×20+6`, `M3×15+6`, `M3×10`, `M3×20`, śruby `M3×6` — zapas własny) | 0,00 zł | 0,00 zł | $0.00 | €0.00 |
+| **-** | **SUMA CZĘŚCIOWA (ELEMENTY ZŁĄCZNE I CHEMIA)** | **-** | **45,76 zł** | **$11.27** | **€10.26** |
 | **-** | **ZAPŁACONO W SUMIE** | **-** | **252,02 zł** | **$62.07** | **€56.51** |
 
 </details>
@@ -179,7 +181,7 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 | Parameter | Specification | Notes |
 | :--- | :--- | :--- |
 | **Material** | PMMA GS (Cast Acrylic / Plexiglas) | **Cast only.** Do not substitute with extruded (XT) acrylic due to chemical solvent crazing and thermal stress cracking. |
-| **Sheet Thickness** | 4.0 mm ($\pm 0.3$ mm tolerance) | Structural walls, top/bottom bulkheads, internal servo partition shelf, and laser-cut offcut mounting blocks. |
+| **Sheet Thickness** | 4.0 mm ($\pm 0.3$ mm tolerance) | Structural walls, top/bottom bulkheads, internal servo partition shelf, and laser-cut offcut clips/spacers. |
 | **Color / Finish** | Optically clear (high transmission) | Ensures unhindered optical path for primary (East-facing) and front (West-facing) image sensors. |
 | **Kerf Compensation** | Nominal: 0.15 – 0.20 mm | Integrated in vector stroke paths; smartphone retention clips include +0.8 mm nominal clearance (10.0 mm slot for 9.2 mm device thickness). |
 
@@ -190,7 +192,7 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 | Parametr | Specyfikacja | Uwagi |
 | :--- | :--- | :--- |
 | **Materiał** | PMMA GS (Szkło akrylowe wylewane / Plexiglas) | **Tylko wylewane.** Nie zastępować akrylem wytłaczanym (XT) ze względu na ryzyko mikropęknięć od rozpuszczalników i naprężeń termicznych. |
-| **Grubość Arkusza** | 4,0 mm (tolerancja $\pm 0,3$ mm) | Ściany konstrukcyjne, górne/dolne grodzie, wewnętrzna półka na serwo oraz klocki montażowe wycinane z odpadów. |
+| **Grubość Arkusza** | 4,0 mm (tolerancja $\pm 0,3$ mm) | Ściany konstrukcyjne, górne/dolne grodzie, wewnętrzna półka na serwo oraz chwytaki i dystanse wycinane z odpadów. |
 | **Kolor / Wykończenie** | Optycznie przezroczysty (wysoka transmisja) | Zapewnia niezakłóconą ścieżkę optyczną dla głównego aparatu (sektor wschodni) oraz przedniej kamery (sektor zachodni). |
 | **Kompensacja Rzazu** | Nominalnie: 0,15 – 0,20 mm | Zintegrowana w ścieżkach wektorowych; chwytaki smartfona uwzględniają +0,8 mm luzu nominalnego (szczelina 10,0 mm dla grubości telefonu 9,2 mm). |
 
@@ -243,16 +245,16 @@ Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
 </div>
 
 1.  **Edge Preparation:** Remove protective masking along joint interfaces. Degrease all bonding faces with isopropanol (`Dragon IPA Cleaner Spray`) and pre-align perpendicular walls using 24 mm painter's masking tape.
-2.  **Structural Bonding:** Assemble structural joints, smartphone retention clips, and the bottom USB-C support disc using 2-component 5-minute epoxy adhesive (`Dragon Distal`, 25 ml syringe recommended) or capillary PMMA solvent cement (`Acrifix 116 / 192`).
-3.  **Internal Fastener & Spacer Blocks:** Offcut grid elements — 12× corner blocks (`15 × 15 mm`, cut from the heatsink window) and 8× spacer blocks (`15 × 8 mm`, cut below the servo shelf) — are laminated inside the corners to host M3 fasteners for both the front service hatch and rear optical wall.
+2.  **Internal M3 Brass Standoff Frame (80 mm Span):** Before bonding, assemble the 4 corner tie-rods using standard **M3 brass hex standoffs (`Aoqdqdqd 120 pcs` kit)** stacked in series to match the exact **80 mm** internal width of the side walls (e.g., `2× M3×20+6 mm` + `2× M3×15+6 mm` + `1× M3×10 mm` = `80 mm` per corner, or `3× M3×20+6 mm` + `1× M3×20 mm`), secured at both ends with **8× M3×6 mm screws**. This rigid internal skeleton squares the entire enclosure during adhesive curing and allows tool-assisted removal of both the front service hatch and the rear optical wall without gluing corner blocks or heat-set inserts.
+3.  **Structural Bonding & Offcut Spacers:** Bond the main enclosure joints, U-shaped smartphone retention clips, and the bottom USB-C pedestal disc using 2-component 5-minute epoxy adhesive (`Dragon Distal`, 25 ml syringe recommended) or capillary PMMA solvent cement (`Acrifix 116 / 192`). Laser-cut offcut elements — 12× blocks (`15 × 15 mm`, cut from the heatsink window) and 8× spacer blocks (`15 × 8 mm`, cut below the servo shelf) — are retained as optional internal gussets and standoffs.
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
 <br>
 
 1.  **Przygotowanie Krawędzi:** Usuń folię ochronną wzdłuż powierzchni łączeń. Odtłuść wszystkie powierzchnie klejenia izopropanolem (`Dragon IPA Cleaner Spray`) i spozycjonuj prostopadłe ścianki za pomocą taśmy malarskiej 24 mm.
-2.  **Klejenie Konstrukcyjne:** Połącz ścianki obudowy, chwytaki smartfona oraz dolny krążek pod wtyk USB-C używając dwuskładnikowego kleju epoksydowego 5 min (`Dragon Distal`, zalecana strzykawka 25 ml) lub kapilarnego kleju rozpuszczalnikowego do PMMA (`Acrifix 116 / 192`).
-3.  **Wewnętrzne Bloki Montażowe i Dystansowe:** Elementy wycięte z odpadów — 12× bloków narożnych (`15 × 15 mm` z okna radiatora) oraz 8× klocków dystansowych (`15 × 8 mm` spod półki serwa) — są wklejane warstwowo w narożnikach jako gniazda pod śruby M3 mocujące przednią klapę rewizyjną oraz tylną ściankę optyczną.
+2.  **Wewnętrzny Szkielet z Mosiężnych Dystansów M3 (rozstaw 80 mm):** Przed klejeniem skręć 4 narożne przeloty z **mosiężnych tulei dystansowych M3 (zestaw `Aoqdqdqd 120 szt.`)**, łącząc je szeregowo na dokładną szerokość wewnętrzną ścianek bocznych **80 mm** (np. `2× M3×20+6 mm` + `2× M3×15+6 mm` + `1× M3×10 mm` = `80 mm` na narożnik lub `3× M3×20+6 mm` + `1× M3×20 mm`) i domykając z obu stron **8× śrubami M3×6 mm**. Taki sztywny szkielet nadaje obudowie idealną geometrię na czas wiązania kleju oraz umożliwia pełny demontaż przedniej klapy rewizyjnej i tylnej ścianki optycznej bez konieczności wklejania klocków narożnych i wtapiania gwintów.
+3.  **Klejenie Konstrukcyjne i Dystanse z Odpadów:** Połącz ścianki obudowy, chwytaki smartfona oraz dolny krążek pod wtyk USB-C używając dwuskładnikowego kleju epoksydowego 5 min (`Dragon Distal`, zalecana strzykawka 25 ml) lub kapilarnego kleju rozpuszczalnikowego do PMMA (`Acrifix 116 / 192`). Elementy wycięte z odpadów — 12× kostek (`15 × 15 mm` z okna radiatora) oraz 8× klocków (`15 × 8 mm` spod półki serwa) — stanowią opcjonalne wzmocnienia i dystanse wewnętrzne.
 
 </details>
 
@@ -263,7 +265,7 @@ Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
 </div>
 
 ```svg
-<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" width="600mm" height="400mm" viewBox="0 0 600 400">
+<svg xmlns="http://www.w3.org/2000/svg" width="600mm" height="400mm" viewBox="0 0 600 400">
   <g stroke="#dc143c" stroke-width="0.5" fill="none">
     
     <!-- 1. DEKIEL GÓRNY (128x88 mm) -->
@@ -332,3 +334,4 @@ Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
 
   </g>
 </svg>
+```
