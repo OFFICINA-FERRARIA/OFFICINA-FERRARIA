@@ -76,7 +76,6 @@ To automatically add the quoted enclosure components to your cart, click the **O
 | 1 | M8 Zinc-Plated Threaded Rod (AZME) | 4.98 zł | 4.98 zł | $1.23 | €1.12 |
 | 2 | M8 Self-Locking Hex Nut (DIN 985) | 0.68 zł | 1.36 zł | $0.33 | €0.30 |
 | 1 | Cable Gland PG-13.5 (IP68) | 3.98 zł | 3.98 zł | $0.98 | €0.89 |
-| 1 | Cable Gland PG-11 (IP68, spare / temporary alignment guide) | 3.48 zł | 3.48 zł | $0.86 | €0.78 |
 | 1 | Dragon IPA Cleaner Spray (Isopropanol) | 21.98 zł | 21.98 zł | $5.41 | €4.93 |
 | 1 | Dragon Distal 5-min Epoxy Adhesive (6 ml — **25 ml syringe recommended**) | 5.00 zł | 5.00 zł | $1.23 | €1.12 |
 | 1 | Painter's Masking Tape (24 mm × 50 m, joint alignment) | 4.98 zł | 4.98 zł | $1.23 | €1.12 |
@@ -139,7 +138,6 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 | 1 | Pręt gwintowany ocynkowany M8 (AZME) | 4,98 zł | 4,98 zł | $1.23 | €1.12 |
 | 2 | Nakrętka sześciokątna M8 samohamowna (DIN 985) | 0,68 zł | 1,36 zł | $0.33 | €0.30 |
 | 1 | Dławik kablowy z gwintem PG-13,5 (IP68) | 3,98 zł | 3,98 zł | $0.98 | €0.89 |
-| 1 | Dławik kablowy z gwintem PG-11 (IP68, zapas / tymczasowa prowadnica osi) | 3,48 zł | 3,48 zł | $0.86 | €0.78 |
 | 1 | Dragon IPA Cleaner Spray (izopropanol do odtłuszczania) | 21,98 zł | 21,98 zł | $5.41 | €4.93 |
 | 1 | Klej epoksydowy Dragon Distal 5 min (6 ml — **zalecana strzykawka 25 ml**) | 5,00 zł | 5,00 zł | $1.23 | €1.12 |
 | 1 | Taśma malarska 24 mm × 50 m (pozycjonowanie ścianek) | 4,98 zł | 4,98 zł | $1.23 | €1.12 |
