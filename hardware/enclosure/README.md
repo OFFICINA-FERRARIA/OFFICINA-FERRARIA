@@ -26,13 +26,13 @@ Ten katalog zawiera gotowe do produkcji profile wektorowe CAM 2D do cięcia lase
 </div>
 
 The core hardware components for this node have been successfully ordered and paid for. For full transparency, the raw PDF confirmations are available directly in this repository:
-* 📄 [Kamami_2026-11-07.pdf](./Kamami_2026-11-07.pdf) - Order confirmation.
-* 📄 [statement_202631200044149.pdf](./statement_202631200044149.pdf) - Paysafecard payment statement.
+- 📄 [Kamami_2026-11-07.pdf](./Kamami_2026-11-07.pdf) - Order confirmation.
+- 📄 [statement_202631200044149.pdf](./statement_202631200044149.pdf) - Paysafecard payment statement.
 
 The mechanical enclosure components have been quoted and fabricated by PlasticExpress. For full financial transparency, the manufacturing and transaction documents are available below:
-* 📄 [wycena10382.pdf](./wycena10382.pdf) - Laser cutting quote.
-* 📄 [FSPE202611266.pdf](./FSPE202611266.pdf) - VAT Invoice from Contra Sp. z o.o.
-* 📄 [statement_202631300096025.pdf](./statement_202631300096025.pdf) - Paysafecard payment statement.
+- 📄 [wycena10382.pdf](./wycena10382.pdf) - Laser cutting quote.
+- 📄 [FSPE202611266.pdf](./FSPE202611266.pdf) - VAT Invoice from Contra Sp. z o.o.
+- 📄 [statement_202631300096025.pdf](./statement_202631300096025.pdf) - Paysafecard payment statement.
 
 <div dir="auto">
 <h3 dir="auto">🛒 How to order</h3>
@@ -47,38 +47,54 @@ To automatically add the quoted enclosure components to your cart, click the **O
 > 🔗 
 >
 >```
->https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg?short_path=7bf3152
+>[https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg](https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg)
 >```
 >
 > **Why is this important?**
-> The servo cutout was shifted by 10 mm after dimensional verification to ensure the servo drive axis perfectly aligns with the rod placed in the bearing.
+> - The servo cutout was shifted by 10 mm to align the MG996R drive axis with the M8 rod in the F608 bearing, and 4× M3 servo mounting holes (`49.5 × 10 mm` pitch) were added.
+> - Added 4× M3 corner holes to the rear optical wall, enlarged and offset the bottom PG-13.5 gland cutout (`Ø22 mm`), and relocated the upper ePTFE acoustic membrane cutout to the left side wall (`175 mm` from bottom) to align with the top microphone of the Galaxy XCover 5.
+> - **Keep offcuts:** Do not discard cutouts from the servo slot (2× U-shaped smartphone retention clips), heatsink window (12× `15 × 15 mm` corner blocks), or the `120 × 8 mm` strip below the servo shelf (8× `15 × 8 mm` spacer blocks).
 <br>
 
-**Project Bill of Materials (BOM) & Costs** (Exchange rates via NBP, 2026-11-13: 1 USD = 3.99 PLN | 1 EUR = 4.41 PLN)
+**Project Bill of Materials (BOM) & Costs** (Exchange rates via NBP, 2026-11-23: 1 USD = 4.06 PLN | 1 EUR = 4.46 PLN)
 
 | Qty | Component | Unit Price (PLN) | Total (PLN) | Total (USD) | Total (EUR) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [Servo MG996R](https://kamami.pl/serwa-giant/204180-servo-mg996r-5906623440627.html) | 19.54 zł | 19.54 zł | $4.90 | €4.43 |
-| 1 | [XIAO ESP32S3 & Wio-SX1262 Kit (Meshtastic/LoRa)](https://kamami.pl/meshtastic/1194474-xiao-esp32s3-wio-sx1262-kit-zestaw-z-modulem-esp32s3-i-komunikacja-lora.html) | 62.16 zł | 62.16 zł | $15.58 | €14.10 |
-| 2 | USB-A to USB-C Cable (1m, Black) | 5.08 zł | 10.16 zł | $2.55 | €2.30 |
-| 1 | USB-C Adapter M-F (Angled, Side) | 9.16 zł | 9.16 zł | $2.30 | €2.08 |
-| 1 | [Laser-cut PMMA Enclosure (PlasticExpress)](https://plasticexpress.pl/wycena/Qb2gM/a) | 71.34 zł | 71.34 zł | $17.88 | €16.18 |
-| - | Shipping (Kamami - InPost Paczkomat) | - | 13.90 zł | $3.48 | €3.15 |
-| - | Shipping (PlasticExpress - GLS) | - | 20.00 zł | $5.01 | €4.54 |
-| **-** | **TOTAL PAID** | **-** | **206.26 zł** | **$51.69** | **€46.77** |
+| 1 | [Servo MG996R](https://kamami.pl/serwa-giant/204180-servo-mg996r-5906623440627.html) | 19.54 zł | 19.54 zł | $4.81 | €4.38 |
+| 1 | [XIAO ESP32S3 & Wio-SX1262 Kit (Meshtastic/LoRa)](https://kamami.pl/meshtastic/1194474-xiao-esp32s3-wio-sx1262-kit-zestaw-z-modulem-esp32s3-i-komunikacja-lora.html) | 62.16 zł | 62.16 zł | $15.31 | €13.94 |
+| 2 | USB-A to USB-C Cable (1m, Black) | 5.08 zł | 10.16 zł | $2.50 | €2.28 |
+| 1 | USB-C Adapter M-F (Angled, Side) | 9.16 zł | 9.16 zł | $2.26 | €2.05 |
+| 1 | [Laser-cut PMMA Enclosure (PlasticExpress)](https://plasticexpress.pl/wycena/Qb2gM/a) | 71.34 zł | 71.34 zł | $17.57 | €16.00 |
+| - | Shipping (Kamami - InPost Paczkomat) | - | 13.90 zł | $3.42 | €3.12 |
+| - | Shipping (PlasticExpress - GLS) | - | 20.00 zł | $4.93 | €4.48 |
+| **-** | **SUBTOTAL (ELECTRONICS & ENCLOSURE)** | **-** | **206.26 zł** | **$50.80** | **€46.25** |
+
+**Hardware, Fasteners & Assembly Consumables (Castorama — 2026-11-18)**
+
+| Qty | Item | Unit Price (PLN) | Total (PLN) | Total (USD) | Total (EUR) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | M8 Zinc-Plated Threaded Rod (AZME) | 4.98 zł | 4.98 zł | $1.23 | €1.12 |
+| 2 | M8 Self-Locking Hex Nut (DIN 985) | 0.68 zł | 1.36 zł | $0.33 | €0.30 |
+| 1 | Cable Gland PG-13.5 (IP68) | 3.98 zł | 3.98 zł | $0.98 | €0.89 |
+| 1 | Cable Gland PG-11 (IP68, spare/optional) | 3.48 zł | 3.48 zł | $0.86 | €0.78 |
+| 1 | Dragon IPA Cleaner Spray (Isopropanol) | 21.98 zł | 21.98 zł | $5.41 | €4.93 |
+| 1 | Dragon Distal 5-min Epoxy Adhesive (6 ml — **25 ml syringe recommended**) | 5.00 zł | 5.00 zł | $1.23 | €1.12 |
+| 1 | Painter's Masking Tape (24 mm × 50 m, joint alignment) | 4.98 zł | 4.98 zł | $1.23 | €1.12 |
+| **-** | **SUBTOTAL (CASTORAMA)** | **-** | **45.76 zł** | **$11.27** | **€10.26** |
+| **-** | **GRAND TOTAL PAID** | **-** | **252.02 zł** | **$62.07** | **€56.51** |
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
 <br>
 
 Kluczowe podzespoły sprzętowe dla tego węzła zostały pomyślnie zamówione i opłacone. W ramach pełnej transparentności finansowej projektu, surowe pliki PDF potwierdzające transakcję i wydatki zostały opublikowane bezpośrednio w tym repozytorium:
-* 📄 [Kamami_2026-11-07.pdf](./Kamami_2026-11-07.pdf) - Potwierdzenie zamówienia.
-* 📄 [statement_202631200044149.pdf](./statement_202631200044149.pdf) - Wyciąg płatności z konta Paysafecard.
+- 📄 [Kamami_2026-11-07.pdf](./Kamami_2026-11-07.pdf) - Potwierzenie zamówienia.
+- 📄 [statement_202631200044149.pdf](./statement_202631200044149.pdf) - Wyciąg płatności z konta Paysafecard.
 
 Elementy mechaniczne obudowy zostały wycenione i wyprodukowane przez PlasticExpress. W ramach pełnej transparentności finansowej, dokumenty produkcyjne i transakcyjne są dostępne poniżej:
-* 📄 [wycena10382.pdf](./wycena10382.pdf) - Oferta cięcia laserowego.
-* 📄 [FSPE202611266.pdf](./FSPE202611266.pdf) - Faktura VAT (Contra Sp. z o.o.).
-* 📄 [statement_202631300096025.pdf](./statement_202631300096025.pdf) - Wyciąg płatności Paysafecard.
+- 📄 [wycena10382.pdf](./wycena10382.pdf) - Oferta cięcia laserowego.
+- 📄 [FSPE202611266.pdf](./FSPE202611266.pdf) - Faktura VAT (Contra Sp. z o.o.).
+- 📄 [statement_202631300096025.pdf](./statement_202631300096025.pdf) - Wyciąg płatności Paysafecard.
 
 <div dir="auto">
 <h3 dir="auto">🛒 Jak zamówić</h3>
@@ -93,24 +109,40 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 > 🔗 
 >
 >```
->https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg?short_path=7bf3152
+>[https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg](https://github.com/OFFICINA-FERRARIA/OFFICINA-FERRARIA/blob/main/hardware/enclosure/C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg)
 >```
 >
 > **Dlaczego to ważne?**
-> Otwór na serwo został przesunięty o 10 mm po korekcie i zweryfikowaniu wymiarów, aby oś napędu serwa idealnie zgadzała się z prętem umieszczonym w łożysku.
+> - Otwór na serwo MG996R został przesunięty o 10 mm, aby oś napędu idealnie zgadzała się z prętem M8 umieszczonym w łożysku F608, oraz dodano 4 otwory montażowe M3 (`49,5 × 10 mm`).
+> - Dodano 4 narożne otwory M3 w tylnej ściance optycznej, powiększono i przesunięto otwór dławnicy PG-13,5 (`Ø22 mm`) pod przednią ściankę oraz przeniesiono górną membranę akustyczną ePTFE na lewą ściankę boczną (`175 mm` od dołu) na wysokość górnego mikrofonu Galaxy XCover 5.
+> - **Zachowanie odpadów:** Prośba o niewyrzucanie wyciętych elementów z otworu serwa (2× chwytak U pod smartfon), okna radiatora (12× kostka `15 × 15 mm`) oraz paska `120 × 8 mm` spod półki (8× klocek `15 × 8 mm`).
 
-**Zestawienie kosztów podzespołów** (Średni kurs NBP z dn. 2026-11-13: 1 USD = 3,99 PLN | 1 EUR = 4,41 PLN)
+**Zestawienie kosztów podzespołów** (Średni kurs NBP z dn. 2026-11-23: 1 USD = 4,06 PLN | 1 EUR = 4,46 PLN)
 
 | Ilość | Podzespół | Cena jedn. (PLN) | Suma (PLN) | Suma (USD) | Suma (EUR) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | [Serwo MG996R](https://kamami.pl/serwa-giant/204180-servo-mg996r-5906623440627.html) | 19,54 zł | 19,54 zł | $4.90 | €4.43 |
-| 1 | [Zestaw XIAO ESP32S3 & Wio-SX1262 Kit (Meshtastic/LoRa)](https://kamami.pl/meshtastic/1194474-xiao-esp32s3-wio-sx1262-kit-zestaw-z-modulem-esp32s3-i-komunikacja-lora.html) | 62,16 zł | 62,16 zł | $15.58 | €14.10 |
-| 2 | Przewód USB typ A - USB typ C (1m, czarny) | 5,08 zł | 10,16 zł | $2.55 | €2.30 |
-| 1 | Adapter USB typu C M-F (kątowy boczny) | 9,16 zł | 9,16 zł | $2.30 | €2.08 |
-| 1 | [Obudowa PMMA cięta laserowo (PlasticExpress)](https://plasticexpress.pl/wycena/Qb2gM/a) | 71,34 zł | 71,34 zł | $17.88 | €16.18 |
-| - | Wysyłka (Kamami - Paczkomat InPost) | - | 13,90 zł | $3.48 | €3.15 |
-| - | Wysyłka (PlasticExpress - Kurier GLS) | - | 20,00 zł | $5.01 | €4.54 |
-| **-** | **ZAPŁACONO W SUMIE** | **-** | **206,26 zł** | **$51.69** | **€46.77** |
+| 1 | [Serwo MG996R](https://kamami.pl/serwa-giant/204180-servo-mg996r-5906623440627.html) | 19,54 zł | 19,54 zł | $4.81 | €4.38 |
+| 1 | [Zestaw XIAO ESP32S3 & Wio-SX1262 Kit (Meshtastic/LoRa)](https://kamami.pl/meshtastic/1194474-xiao-esp32s3-wio-sx1262-kit-zestaw-z-modulem-esp32s3-i-komunikacja-lora.html) | 62,16 zł | 62,16 zł | $15.31 | €13.94 |
+| 2 | Przewód USB typ A - USB typ C (1m, czarny) | 5,08 zł | 10,16 zł | $2.50 | €2.28 |
+| 1 | Adapter USB typu C M-F (kątowy boczny) | 9,16 zł | 9,16 zł | $2.26 | €2.05 |
+| 1 | [Obudowa PMMA cięta laserowo (PlasticExpress)](https://plasticexpress.pl/wycena/Qb2gM/a) | 71,34 zł | 71,34 zł | $17.57 | €16.00 |
+| - | Wysyłka (Kamami - Paczkomat InPost) | - | 13,90 zł | $3.42 | €3.12 |
+| - | Wysyłka (PlasticExpress - Kurier GLS) | - | 20,00 zł | $4.93 | €4.48 |
+| **-** | **SUMA CZĘŚCIOWA (ELEKTRONIKA I OBUDOWA)** | **-** | **206,26 zł** | **$50.80** | **€46.25** |
+
+**Elementy złączne i chemia montażowa (Castorama — 2026-11-18)**
+
+| Ilość | Pozycja | Cena jedn. (PLN) | Suma (PLN) | Suma (USD) | Suma (EUR) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Pręt gwintowany ocynkowany M8 (AZME) | 4,98 zł | 4,98 zł | $1.23 | €1.12 |
+| 2 | Nakrętka sześciokątna M8 samohamowna (DIN 985) | 0,68 zł | 1,36 zł | $0.33 | €0.30 |
+| 1 | Dławik kablowy z gwintem PG-13,5 (IP68) | 3,98 zł | 3,98 zł | $0.98 | €0.89 |
+| 1 | Dławik kablowy z gwintem PG-11 (IP68, zapas/opcja) | 3,48 zł | 3,48 zł | $0.86 | €0.78 |
+| 1 | Dragon IPA Cleaner Spray (izopropanol do odtłuszczania) | 21,98 zł | 21,98 zł | $5.41 | €4.93 |
+| 1 | Klej epoksydowy Dragon Distal 5 min (6 ml — **zalecana strzykawka 25 ml**) | 5,00 zł | 5,00 zł | $1.23 | €1.12 |
+| 1 | Taśma malarska 24 mm × 50 m (pozycjonowanie ścianek) | 4,98 zł | 4,98 zł | $1.23 | €1.12 |
+| **-** | **SUMA CZĘŚCIOWA (CASTORAMA)** | **-** | **45,76 zł** | **$11.27** | **€10.26** |
+| **-** | **ZAPŁACONO W SUMIE** | **-** | **252,02 zł** | **$62.07** | **€56.51** |
 
 </details>
 
@@ -122,19 +154,19 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 
 ![Enclosure Vector Layout](C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg)
 
-*   **Source File:** `C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg`
-*   **Scale:** 1:1 (True Metric, Millimeters)
-*   **Cutting Process:** Industrial CO2 / Fiber Laser CNC
-*   **Target Hardware Compatibility:** Samsung Galaxy XCover 5 (Strict tolerance for dual-camera optical shroud alignment and internal clearance)
+-   **Source File:** `C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg`
+-   **Scale:** 1:1 (True Metric, Millimeters)
+-   **Cutting Process:** Industrial CO2 / Fiber Laser CNC
+-   **Target Hardware Compatibility:** Samsung Galaxy XCover 5 (Strict tolerance for dual-camera optical shroud alignment, top microphone acoustic port, and 10 mm slide-in retention clips)
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
 <br>
 
-*   **Plik Źródłowy:** `C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg`
-*   **Skala:** 1:1 (Rzeczywiste wymiary metryczne, milimetry)
-*   **Proces Cięcia:** Przemysłowy laser CNC CO2 / Fiber
-*   **Kompatybilność Sprzętowa:** Samsung Galaxy XCover 5 (Ścisła tolerancja dla osłony optycznej podwójnego aparatu i wewnętrznego luzu)
+-   **Plik Źródłowy:** `C5ISR_Node_Enclosure_FlatPattern_PMMA-4mm_Rev1.2.svg`
+-   **Skala:** 1:1 (Rzeczywiste wymiary metryczne, milimetry)
+-   **Proces Cięcia:** Przemysłowy laser CNC CO2 / Fiber
+-   **Kompatybilność Sprzętowa:** Samsung Galaxy XCover 5 (Ścisła tolerancja dla osłony optycznej podwójnego aparatu, portu akustycznego górnego mikrofonu oraz wsuwanych uchwytów 10 mm)
 
 </details>
 
@@ -147,9 +179,9 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 | Parameter | Specification | Notes |
 | :--- | :--- | :--- |
 | **Material** | PMMA GS (Cast Acrylic / Plexiglas) | **Cast only.** Do not substitute with extruded (XT) acrylic due to chemical solvent crazing and thermal stress cracking. |
-| **Sheet Thickness** | 4.0 mm ($\pm 0.3$ mm tolerance) | Structural walls, top/bottom bulkheads, internal servo partition shelf. |
-| **Color / Finish** | Optically clear (high transmission) | Ensures unhindered optical path for primary and secondary image sensors. |
-| **Kerf Compensation** | Nominal: 0.15 – 0.20 mm | Integrated in vector stroke paths for interference fit where applicable. |
+| **Sheet Thickness** | 4.0 mm ($\pm 0.3$ mm tolerance) | Structural walls, top/bottom bulkheads, internal servo partition shelf, and laser-cut offcut mounting blocks. |
+| **Color / Finish** | Optically clear (high transmission) | Ensures unhindered optical path for primary (East-facing) and front (West-facing) image sensors. |
+| **Kerf Compensation** | Nominal: 0.15 – 0.20 mm | Integrated in vector stroke paths; smartphone retention clips include +0.8 mm nominal clearance (10.0 mm slot for 9.2 mm device thickness). |
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
@@ -158,9 +190,9 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 | Parametr | Specyfikacja | Uwagi |
 | :--- | :--- | :--- |
 | **Materiał** | PMMA GS (Szkło akrylowe wylewane / Plexiglas) | **Tylko wylewane.** Nie zastępować akrylem wytłaczanym (XT) ze względu na ryzyko mikropęknięć od rozpuszczalników i naprężeń termicznych. |
-| **Grubość Arkusza** | 4,0 mm (tolerancja $\pm 0,3$ mm) | Ściany konstrukcyjne, górne/dolne grodzie, wewnętrzna półka na serwo. |
-| **Kolor / Wykończenie** | Optycznie przezroczysty (wysoka transmisja) | Zapewnia niezakłóconą ścieżkę optyczną dla głównego i dodatkowego obiektywu. |
-| **Kompensacja Rzazu** | Nominalnie: 0,15 – 0,20 mm | Zintegrowana w ścieżkach wektorowych dla ciasnego spasowania tam, gdzie to konieczne. |
+| **Grubość Arkusza** | 4,0 mm (tolerancja $\pm 0,3$ mm) | Ściany konstrukcyjne, górne/dolne grodzie, wewnętrzna półka na serwo oraz klocki montażowe wycinane z odpadów. |
+| **Kolor / Wykończenie** | Optycznie przezroczysty (wysoka transmisja) | Zapewnia niezakłóconą ścieżkę optyczną dla głównego aparatu (sektor wschodni) oraz przedniej kamery (sektor zachodni). |
+| **Kompensacja Rzazu** | Nominalnie: 0,15 – 0,20 mm | Zintegrowana w ścieżkach wektorowych; chwytaki smartfona uwzględniają +0,8 mm luzu nominalnego (szczelina 10,0 mm dla grubości telefonu 9,2 mm). |
 
 </details>
 
@@ -170,35 +202,37 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 <h2 dir="auto">🇺🇸 / 🇵🇱 3. Mechanical Interface & Features / Interfejs Mechaniczny</h2>
 </div>
 
-*   **Primary Suspension (Top Plate):** Center cut-out designed for an integrated F608 flanged bearing carrying an M8 structural threaded rod / dynamic pivot axis.
-*   **Internal Drive Partition:** Direct cut-outs for MG996R continuous-rotation/metal-gear servo and brass standoffs for the ESP32 processing unit.
+-   **Primary Suspension (Top Plate):** Center cut-out (`Ø22 mm`) designed for an integrated F608 flanged bearing carrying an M8 structural threaded rod / dynamic pivot axis.
+-   **Internal Drive Partition:** Direct cut-outs for MG996R metal-gear servo with 4× M3 mounting holes (`49.5 × 10 mm` pitch). Two U-shaped retention clips (`20 × 20.5 mm`, `10 × 13.5 mm` slot) cut from the servo slot offcut are bonded under the servo body to slide onto the top edge of the smartphone.
 
 ![MG996R](9ME4004_D.webp)
 <br>
 Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
 
-*   **Thermal Management:** Side wall cut-out sized for a passively cooled, finned extruded aluminum heatsink interface.
-*   **Acoustic & Environmental Ports:**
-    *   Dual offset ePTFE micro-porous acoustic vent membranes (waterproof / vapor-permeable).
-    *   Bottom offset M12 IP68 cable gland port for strain-relieved coiled USB-C umbilical harness.
-*   **Center-of-Gravity (CoG) Ballast Attachment:** Dual bottom-corner anchor points for M4/M5 eye bolts and carabiner rigging, carrying an external counterweight tactical battery pouch.
+-   **Thermal Management:** Right side wall cut-out (`100 × 40 mm`) sized for a passively cooled, finned extruded aluminum heatsink interface.
+-   **Acoustic & Environmental Ports:**
+  -   **Bottom ePTFE membrane (`Ø10 mm`):** Offset pressure-equalization and vapor-permeable vent on the bottom bulkhead.
+  -   **Upper ePTFE acoustic port (`Ø10 mm`):** Centered on the left side wall (`175 mm` from bottom / `85 mm` from top) directly at the height of the Galaxy XCover 5 top microphone for omnidirectional East/West acoustic detection while shielding against frontal wind noise.
+  -   **Bottom USB-C & PG-13.5 Cable Gland (`Ø22 mm`):** The `Ø22 mm` disc offcut from the F608 bearing hole is bonded centrally (`214, 54`) on the bottom bulkhead as a rigid pedestal for the side-angled USB-C adapter, while the `PG-13.5` IP68 cable gland port is offset toward the front edge (`cy = 79.5`) for strain-relieved umbilical routing.
+-   **Center-of-Gravity (CoG) Ballast Attachment:** Dual bottom-corner anchor points for M4/M5 eye bolts and carabiner rigging, carrying an external counterweight tactical battery pouch.
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
 <br>
 
-*   **Główne Zawieszenie (Górna Płyta):** Środkowe wycięcie zaprojektowane dla zintegrowanego łożyska kołnierzowego F608 opierającego pręt gwintowany M8 / dynamiczną oś obrotu.
-*   **Wewnętrzna Przegroda Napędowa:** Bezpośrednie wycięcia pod serwo MG996R z metalową przekładnią i mosiężne dystanse dla jednostki ESP32.
+-   **Główne Zawieszenie (Górna Płyta):** Środkowe wycięcie (`Ø22 mm`) zaprojektowane dla zintegrowanego łożyska kołnierzowego F608 opierającego pręt gwintowany M8 / dynamiczną oś obrotu.
+-   **Wewnętrzna Przegroda Napędowa:** Wycięcie pod serwo MG996R z metalową przekładnią wraz z 4 otworami montażowymi M3 (`49,5 × 10 mm`). Z odpadu wyciętego z gniazda serwa powstają dwa chwytaki w kształcie litery U (`20 × 20,5 mm`, szczelina `10 × 13,5 mm`), klejone pod spodem serwa i wsuwane od góry na krawędź smartfona.
 
 ![MG996R](9ME4004_D.webp)
 <br>
 Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
 
-*   **Zarządzanie Termiczne:** Wycięcie w bocznej ściance dostosowane pod pasywnie chłodzony radiator z tłoczonego aluminium.
-*   **Porty Akustyczne i Środowiskowe:**
-    *   Dwie asymetryczne mikroporowate membrany akustyczne ePTFE (wodoodporne / przepuszczające parę).
-    *   Dolny port pod dławnicę kablową M12 (IP68) dla zabezpieczonego spiralnego przewodu zasilającego USB-C.
-*   **Balast Środka Ciężkości (CoG):** Dwa dolne punkty kotwiczące pod śruby z uchem M4/M5 i karabińczyki, przenoszące zewnętrzną taktyczną kieszeń na powerbank stanowiącą przeciwwagę.
+-   **Zarządzanie Termiczne:** Wycięcie w prawej bocznej ściance (`100 × 40 mm`) dostosowane pod pasywnie chłodzony radiator z tłoczonego aluminium.
+-   **Porty Akustyczne i Środowiskowe:**
+  -   **Dolna membrana ePTFE (`Ø10 mm`):** Asymetryczny zawór wyrównujący ciśnienie i przepuszczający parę wodną w dolnym deklu.
+  -   **Górny port akustyczny ePTFE (`Ø10 mm`):** Umieszczony centralnie w osi lewej ścianki bocznej (`175 mm` od dołu / `85 mm` od góry) dokładnie na wysokości górnego mikrofonu Galaxy XCover 5 — zapewnia równomierny nasłuch w sektorze wschodnim i zachodnim przy jednoczesnej ochronie przed szumem czołowego wiatru.
+  -   **Dolna baza USB-C i dławnica PG-13,5 (`Ø22 mm`):** Wycięty krążek `Ø22 mm` z otworu pod łożysko F608 jest wklejony centralnie (`214, 54`) w dolny dekiel jako podstawa pod kątowy adapter USB-C, natomiast otwór dławnicy kablowej `PG-13,5` (IP68) został przesunięty w stronę przedniej ścianki (`cy = 79.5`).
+-   **Balast Środka Ciężkości (CoG):** Dwa dolne punkty kotwiczące pod śruby z uchem M4/M5 i karabińczyki, przenoszące zewnętrzną taktyczną kieszeń na powerbank stanowiącą przeciwwagę.
 
 </details>
 
@@ -208,17 +242,17 @@ Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
 <h2 dir="auto">🇺🇸 / 🇵🇱 4. Assembly & Joining Procedures / Procedury Montażu</h2>
 </div>
 
-1.  **Edge Preparation:** Remove protective masking along joint interfaces. Clean bonding faces with isopropanol (IPA) or anti-static cleaner.
-2.  **Solvent Welding:** Assemble perpendicular joints using capillary-action solvent cement (e.g., Acrifix 116 / 192 or equivalent PMMA solvent). Ensure full chemical cross-linking.
-3.  **Internal Fastener Blocks:** Layered internal structural corner blocks ($15 \times 15$ mm, laminated from offcut PMMA) host heat-set brass threaded inserts (M3) for front service-hatch retention.
+1.  **Edge Preparation:** Remove protective masking along joint interfaces. Degrease all bonding faces with isopropanol (`Dragon IPA Cleaner Spray`) and pre-align perpendicular walls using 24 mm painter's masking tape.
+2.  **Structural Bonding:** Assemble structural joints, smartphone retention clips, and the bottom USB-C support disc using 2-component 5-minute epoxy adhesive (`Dragon Distal`, 25 ml syringe recommended) or capillary PMMA solvent cement (`Acrifix 116 / 192`).
+3.  **Internal Fastener & Spacer Blocks:** Offcut grid elements — 12× corner blocks (`15 × 15 mm`, cut from the heatsink window) and 8× spacer blocks (`15 × 8 mm`, cut below the servo shelf) — are laminated inside the corners to host M3 fasteners for both the front service hatch and rear optical wall.
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
 <br>
 
-1.  **Przygotowanie Krawędzi:** Usuń folię ochronną wzdłuż powierzchni łączeń. Oczyść powierzchnie klejenia izopropanolem (IPA) lub płynem antystatycznym.
-2.  **Klejenie Rozpuszczalnikowe:** Złóż złącza prostopadłe używając kleju kapilarnego (np. Acrifix 116 / 192 lub odpowiednika dla PMMA). Upewnij się, że zaszło pełne sieciowanie chemiczne.
-3.  **Wewnętrzne Bloki Montażowe:** Warstwowe, wewnętrzne narożne bloki konstrukcyjne ($15 \times 15$ mm, laminowane ze ścinek PMMA) mieszczą wtopione mosiężne gwinty (M3) do mocowania przedniej klapy serwisowej.
+1.  **Przygotowanie Krawędzi:** Usuń folię ochronną wzdłuż powierzchni łączeń. Odtłuść wszystkie powierzchnie klejenia izopropanolem (`Dragon IPA Cleaner Spray`) i spozycjonuj prostopadłe ścianki za pomocą taśmy malarskiej 24 mm.
+2.  **Klejenie Konstrukcyjne:** Połącz ścianki obudowy, chwytaki smartfona oraz dolny krążek pod wtyk USB-C używając dwuskładnikowego kleju epoksydowego 5 min (`Dragon Distal`, zalecana strzykawka 25 ml) lub kapilarnego kleju rozpuszczalnikowego do PMMA (`Acrifix 116 / 192`).
+3.  **Wewnętrzne Bloki Montażowe i Dystansowe:** Elementy wycięte z odpadów — 12× bloków narożnych (`15 × 15 mm` z okna radiatora) oraz 8× klocków dystansowych (`15 × 8 mm` spod półki serwa) — są wklejane warstwowo w narożnikach jako gniazda pod śruby M3 mocujące przednią klapę rewizyjną oraz tylną ściankę optyczną.
 
 </details>
 
@@ -229,31 +263,33 @@ Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
 </div>
 
 ```svg
-<svg xmlns="http://www.w3.org/2000/svg" width="600mm" height="400mm" viewBox="0 0 600 400">
+<svg xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" width="600mm" height="400mm" viewBox="0 0 600 400">
   <g stroke="#dc143c" stroke-width="0.5" fill="none">
     
     <!-- 1. DEKIEL GÓRNY (128x88 mm) -->
     <rect x="10" y="10" width="128" height="88" />
-    <circle cx="74" cy="54" r="11" stroke="#dc143c" /> <!-- Otwór na łożysko 608 -->
+    <circle cx="74" cy="54" r="11" stroke="#dc143c" /> <!-- Otwór na łożysko F608 -->
 
     <!-- 2. DEKIEL DOLNY (128x88 mm) -->
     <rect x="150" y="10" width="128" height="88" />
     <circle cx="174" cy="54" r="2" stroke="#dc143c" /> <!-- Lewy otwór na hak M4 -->
     <circle cx="254" cy="54" r="2" stroke="#dc143c" /> <!-- Prawy otwór na hak M4 -->
     <circle cx="214" cy="34" r="5" stroke="#dc143c" /> <!-- Dolna membrana ePTFE -->
-    <circle cx="214" cy="74" r="6" stroke="#dc143c" /> <!-- Przepust kablowy / Dławnica M12 -->
+    <circle cx="214" cy="79.5" r="11" stroke="#dc143c" /> <!-- Przepust kablowy / Dławnica PG-13,5 -->
 
     <!-- 3. WEWNĘTRZNA PÓŁKA NOŚNA NA SERWO (120x80 mm) -->
     <rect x="290" y="10" width="120" height="80" />
     <rect x="319.5" y="40" width="41" height="20" stroke="#dc143c" /> <!-- Wycięcie na serwo MG996R -->
-    <line x1="340" y1="40" x2="340" y2="60" stroke="#dc143c" /> <!-- Podział odpadu na 2 chwytaki (20x20.5 mm) -->
-    <path d="M 319.5 45 L 333 45 L 333 55 L 319.5 55" stroke="#dc143c" /> <!-- Chwytak lewy (obrócony 90°): szczelina 10x13.5 mm -->
-    <path d="M 360.5 45 L 347 45 L 347 55 L 360.5 55" stroke="#dc143c" /> <!-- Chwytak prawy (obrócony 90°): szczelina 10x13.5 mm -->
     <circle cx="315.25" cy="45" r="1.75" stroke="#dc143c" /> <!-- Otwory M3 pod serwo (rozstaw 49.5 x 10 mm) -->
     <circle cx="315.25" cy="55" r="1.75" stroke="#dc143c" />
     <circle cx="364.75" cy="45" r="1.75" stroke="#dc143c" />
     <circle cx="364.75" cy="55" r="1.75" stroke="#dc143c" />
-    
+    <!-- UWAGA: Szerokość szczeliny chwytaków (obecnie 10 mm dla Samsung Galaxy XCover 5 o grubości 9,2 mm) jest
+    zależna od wybranego modelu smartfona i jego grubości (zalecany luz montażowy +0,8 do +1,0 mm) -->
+    <line x1="340" y1="40" x2="340" y2="60" stroke="#dc143c" /> <!-- Podział odpadu na 2 chwytaki (20x20.5 mm) -->
+    <path d="M 319.5 45 L 333 45 L 333 55 L 319.5 55" stroke="#dc143c" /> <!-- Chwytak lewy (obrócony 90°): szczelina 10x13.5 mm -->
+    <path d="M 360.5 45 L 347 45 L 347 55 L 360.5 55" stroke="#dc143c" /> <!-- Chwytak prawy (obrócony 90°): szczelina 10x13.5 mm -->
+
     <!-- Pasek 120x8 mm pod półką (8 klocków 15x8 mm, wspólne linie cięcia, odsunięty po 6 mm od półki i pleców) -->
     <line x1="305" y1="96" x2="305" y2="104" stroke="#dc143c" />
     <line x1="320" y1="96" x2="320" y2="104" stroke="#dc143c" />
@@ -278,8 +314,9 @@ Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
     <circle cx="296" cy="232" r="1.75" stroke="#dc143c" />
     <circle cx="544" cy="232" r="1.75" stroke="#dc143c" />
 
-    <!-- 6. ŚCIANKA BOCZNA LEWA - PEŁNA (260x80 mm) -->
+    <!-- 6. ŚCIANKA BOCZNA LEWA Z MEMBRANĄ ePTFE (260x80 mm) -->
     <rect x="10" y="250" width="260" height="80" />
+    <circle cx="185" cy="290" r="5" stroke="#dc143c" /> <!-- Górna membrana ePTFE (175 mm od dołu / 85 mm od góry, centralnie w osi ścianki — na wysokości górnego mikrofonu XCover 5) -->
 
     <!-- 7. ŚCIANKA BOCZNA PRAWA Z RADIATOREM (260x80 mm) -->
     <rect x="290" y="250" width="260" height="80" />
@@ -295,4 +332,3 @@ Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
 
   </g>
 </svg>
-```
