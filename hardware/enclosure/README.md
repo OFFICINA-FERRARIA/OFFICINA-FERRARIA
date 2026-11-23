@@ -53,7 +53,7 @@ To automatically add the quoted enclosure components to your cart, click the **O
 > **Why is this important?**
 > - The servo cutout was shifted by 10 mm to align the MG996R drive axis with the M8 rod in the F608 bearing, and 4× M3 servo mounting holes (`49.5 × 10 mm` pitch) were added.
 > - Added 4× M3 corner holes to the rear optical wall, enlarged and offset the bottom PG-13.5 gland cutout (`Ø22 mm`), and relocated the upper ePTFE acoustic membrane cutout to the left side wall (`175 mm` from bottom) to align with the top microphone of the Galaxy XCover 5.
-> - **Keep offcuts:** Do not discard cutouts from the servo slot (2× U-shaped smartphone retention clips), heatsink window (12× `15 × 15 mm` blocks), or the `120 × 8 mm` strip below the servo shelf (8× `15 × 8 mm` spacer blocks).
+> - **Keep offcuts:** Do not discard cutouts from the servo slot (2× U-shaped smartphone retention clips), heatsink window (12× `15 × 15 mm` mandatory structural bonding blocks), or the `120 × 8 mm` strip below the servo shelf (8× `15 × 8 mm` spacer blocks).
 <br>
 
 **Project Bill of Materials (BOM) & Costs** (Exchange rates via NBP, 2026-11-23: 1 USD = 4.06 PLN | 1 EUR = 4.46 PLN)
@@ -76,11 +76,12 @@ To automatically add the quoted enclosure components to your cart, click the **O
 | 1 | M8 Zinc-Plated Threaded Rod (AZME) | 4.98 zł | 4.98 zł | $1.23 | €1.12 |
 | 2 | M8 Self-Locking Hex Nut (DIN 985) | 0.68 zł | 1.36 zł | $0.33 | €0.30 |
 | 1 | Cable Gland PG-13.5 (IP68) | 3.98 zł | 3.98 zł | $0.98 | €0.89 |
-| 1 | Cable Gland PG-11 (IP68, spare/optional) | 3.48 zł | 3.48 zł | $0.86 | €0.78 |
+| 1 | Cable Gland PG-11 (IP68, spare / temporary alignment guide) | 3.48 zł | 3.48 zł | $0.86 | €0.78 |
 | 1 | Dragon IPA Cleaner Spray (Isopropanol) | 21.98 zł | 21.98 zł | $5.41 | €4.93 |
 | 1 | Dragon Distal 5-min Epoxy Adhesive (6 ml — **25 ml syringe recommended**) | 5.00 zł | 5.00 zł | $1.23 | €1.12 |
 | 1 | Painter's Masking Tape (24 mm × 50 m, joint alignment) | 4.98 zł | 4.98 zł | $1.23 | €1.12 |
 | 1 set | M3 Brass Hex Standoff Kit (`Aoqdqdqd 120 pcs`: `M3×20+6`, `M3×15+6`, `M3×10`, `M3×20`, `M3×6` screws — workshop stock) | 0.00 zł | 0.00 zł | $0.00 | €0.00 |
+| 6 pcs | Steel Nails from Fiber-Optic Cable Clips (for 6-arm servo horn → M8 hex nut coupler — workshop stock) | 0.00 zł | 0.00 zł | $0.00 | €0.00 |
 | **-** | **SUBTOTAL (HARDWARE & CONSUMABLES)** | **-** | **45.76 zł** | **$11.27** | **€10.26** |
 | **-** | **GRAND TOTAL PAID** | **-** | **252.02 zł** | **$62.07** | **€56.51** |
 
@@ -116,7 +117,7 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 > **Dlaczego to ważne?**
 > - Otwór na serwo MG996R został przesunięty o 10 mm, aby oś napędu idealnie zgadzała się z prętem M8 umieszczonym w łożysku F608, oraz dodano 4 otwory montażowe M3 (`49,5 × 10 mm`).
 > - Dodano 4 narożne otwory M3 w tylnej ściance optycznej, powiększono i przesunięto otwór dławnicy PG-13,5 (`Ø22 mm`) pod przednią ściankę oraz przeniesiono górną membranę akustyczną ePTFE na lewą ściankę boczną (`175 mm` od dołu) na wysokość górnego mikrofonu Galaxy XCover 5.
-> - **Zachowanie odpadów:** Prośba o niewyrzucanie wyciętych elementów z otworu serwa (2× chwytak U pod smartfon), okna radiatora (12× kostka `15 × 15 mm`) oraz paska `120 × 8 mm` spod półki (8× klocek `15 × 8 mm`).
+> - **Zachowanie odpadów:** Prośba o niewyrzucanie wyciętych elementów z otworu serwa (2× chwytak U pod smartfon), okna radiatora (12× obowiązkowe kostki konstrukcyjne `15 × 15 mm`) oraz paska `120 × 8 mm` spod półki (8× klocek dystansowy `15 × 8 mm`).
 
 **Zestawienie kosztów podzespołów** (Średni kurs NBP z dn. 2026-11-23: 1 USD = 4,06 PLN | 1 EUR = 4,46 PLN)
 
@@ -138,11 +139,12 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 | 1 | Pręt gwintowany ocynkowany M8 (AZME) | 4,98 zł | 4,98 zł | $1.23 | €1.12 |
 | 2 | Nakrętka sześciokątna M8 samohamowna (DIN 985) | 0,68 zł | 1,36 zł | $0.33 | €0.30 |
 | 1 | Dławik kablowy z gwintem PG-13,5 (IP68) | 3,98 zł | 3,98 zł | $0.98 | €0.89 |
-| 1 | Dławik kablowy z gwintem PG-11 (IP68, zapas/opcja) | 3,48 zł | 3,48 zł | $0.86 | €0.78 |
+| 1 | Dławik kablowy z gwintem PG-11 (IP68, zapas / tymczasowa prowadnica osi) | 3,48 zł | 3,48 zł | $0.86 | €0.78 |
 | 1 | Dragon IPA Cleaner Spray (izopropanol do odtłuszczania) | 21,98 zł | 21,98 zł | $5.41 | €4.93 |
 | 1 | Klej epoksydowy Dragon Distal 5 min (6 ml — **zalecana strzykawka 25 ml**) | 5,00 zł | 5,00 zł | $1.23 | €1.12 |
 | 1 | Taśma malarska 24 mm × 50 m (pozycjonowanie ścianek) | 4,98 zł | 4,98 zł | $1.23 | €1.12 |
 | 1 kpl. | Zestaw mosiężnych tulei dystansowych M3 (`Aoqdqdqd 120 szt.`: `M3×20+6`, `M3×15+6`, `M3×10`, `M3×20`, śruby `M3×6` — zapas własny) | 0,00 zł | 0,00 zł | $0.00 | €0.00 |
+| 6 szt. | Gwoździki z uchwytów do przewodów światłowodowych (blokada nakrętki M8 w 6-ramiennym orczyku — zapas własny) | 0,00 zł | 0,00 zł | $0.00 | €0.00 |
 | **-** | **SUMA CZĘŚCIOWA (ELEMENTY ZŁĄCZNE I CHEMIA)** | **-** | **45,76 zł** | **$11.27** | **€10.26** |
 | **-** | **ZAPŁACONO W SUMIE** | **-** | **252,02 zł** | **$62.07** | **€56.51** |
 
@@ -181,7 +183,7 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 | Parameter | Specification | Notes |
 | :--- | :--- | :--- |
 | **Material** | PMMA GS (Cast Acrylic / Plexiglas) | **Cast only.** Do not substitute with extruded (XT) acrylic due to chemical solvent crazing and thermal stress cracking. |
-| **Sheet Thickness** | 4.0 mm ($\pm 0.3$ mm tolerance) | Structural walls, top/bottom bulkheads, internal servo partition shelf, and laser-cut offcut clips/spacers. |
+| **Sheet Thickness** | 4.0 mm ($\pm 0.3$ mm tolerance) | Structural walls, top/bottom bulkheads, internal servo partition shelf, and laser-cut offcut clips/blocks. |
 | **Color / Finish** | Optically clear (high transmission) | Ensures unhindered optical path for primary (East-facing) and front (West-facing) image sensors. |
 | **Kerf Compensation** | Nominal: 0.15 – 0.20 mm | Integrated in vector stroke paths; smartphone retention clips include +0.8 mm nominal clearance (10.0 mm slot for 9.2 mm device thickness). |
 
@@ -192,7 +194,7 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 | Parametr | Specyfikacja | Uwagi |
 | :--- | :--- | :--- |
 | **Materiał** | PMMA GS (Szkło akrylowe wylewane / Plexiglas) | **Tylko wylewane.** Nie zastępować akrylem wytłaczanym (XT) ze względu na ryzyko mikropęknięć od rozpuszczalników i naprężeń termicznych. |
-| **Grubość Arkusza** | 4,0 mm (tolerancja $\pm 0,3$ mm) | Ściany konstrukcyjne, górne/dolne grodzie, wewnętrzna półka na serwo oraz chwytaki i dystanse wycinane z odpadów. |
+| **Grubość Arkusza** | 4,0 mm (tolerancja $\pm 0,3$ mm) | Ściany konstrukcyjne, górne/dolne grodzie, wewnętrzna półka na serwo oraz chwytaki i klocki wycinane z odpadów. |
 | **Kolor / Wykończenie** | Optycznie przezroczysty (wysoka transmisja) | Zapewnia niezakłóconą ścieżkę optyczną dla głównego aparatu (sektor wschodni) oraz przedniej kamery (sektor zachodni). |
 | **Kompensacja Rzazu** | Nominalnie: 0,15 – 0,20 mm | Zintegrowana w ścieżkach wektorowych; chwytaki smartfona uwzględniają +0,8 mm luzu nominalnego (szczelina 10,0 mm dla grubości telefonu 9,2 mm). |
 
@@ -204,8 +206,9 @@ Aby automatycznie dodać wycenione elementy obudowy do koszyka, kliknij poniższ
 <h2 dir="auto">🇺🇸 / 🇵🇱 3. Mechanical Interface & Features / Interfejs Mechaniczny</h2>
 </div>
 
--   **Primary Suspension (Top Plate):** Center cut-out (`Ø22 mm`) designed for an integrated F608 flanged bearing carrying an M8 structural threaded rod / dynamic pivot axis.
--   **Internal Drive Partition:** Direct cut-outs for MG996R metal-gear servo with 4× M3 mounting holes (`49.5 × 10 mm` pitch). Two U-shaped retention clips (`20 × 20.5 mm`, `10 × 13.5 mm` slot) cut from the servo slot offcut are bonded under the servo body to slide onto the top edge of the smartphone.
+-   **Primary Suspension (Top Plate):** Center cut-out (`Ø22 mm`) designed for an integrated F608 flanged bearing carrying an M8 structural threaded rod / dynamic pivot axis. *(Note: During initial bench prototyping prior to F608 bearing delivery, IP68 cable glands were utilized strictly as temporary axial alignment guides to stabilize the M8 rod.)*
+-   **Zero-Backlash Servo-to-M8 Shaft Coupling (6-Arm Horn + Hex Nut):** The MG996R servo uses its standard **6-arm horn** paired directly with a standard **M8 hex nut** (6 flat faces) threaded onto the M8 rod and locked with a counter-nut. Six steel nails salvaged from fiber-optic cable clips are press-fitted tightly into the inner holes of all 6 horn arms — each nail braces flush against one of the 6 flat faces of the M8 nut, forming a rigid, zero-backlash mechanical torque coupler without requiring a custom machined adapter.
+-   **Internal Drive Partition & Smartphone Retention:** Direct cut-out for MG996R metal-gear servo with 4× M3 mounting holes (`49.5 × 10 mm` pitch). Two U-shaped retention clips (`20 × 20.5 mm`, `10 × 13.5 mm` slot) cut from the servo slot offcut are bonded under the servo body to slide onto the top edge of the smartphone.
 
 ![MG996R](9ME4004_D.webp)
 <br>
@@ -215,15 +218,16 @@ Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
 -   **Acoustic & Environmental Ports:**
   -   **Bottom ePTFE membrane (`Ø10 mm`):** Offset pressure-equalization and vapor-permeable vent on the bottom bulkhead.
   -   **Upper ePTFE acoustic port (`Ø10 mm`):** Centered on the left side wall (`175 mm` from bottom / `85 mm` from top) directly at the height of the Galaxy XCover 5 top microphone for omnidirectional East/West acoustic detection while shielding against frontal wind noise.
-  -   **Bottom USB-C & PG-13.5 Cable Gland (`Ø22 mm`):** The `Ø22 mm` disc offcut from the F608 bearing hole is bonded centrally (`214, 54`) on the bottom bulkhead as a rigid pedestal for the side-angled USB-C adapter, while the `PG-13.5` IP68 cable gland port is offset toward the front edge (`cy = 79.5`) for strain-relieved umbilical routing.
+  -   **Bottom USB-C Pedestal, LoRa Bay & PG-13.5 Cable Gland (`Ø22 mm`):** The `Ø22 mm` disc offcut from the F608 bearing hole is bonded centrally (`214, 54`) on the bottom bulkhead as a rigid pedestal for the side-angled USB-C adapter, while the `PG-13.5` IP68 cable gland port is offset toward the front edge (`cy = 79.5`) for strain-relieved umbilical routing. The `XIAO ESP32S3 & Wio-SX1262` kit sits on a foam vibration isolator in the lower-left bay with its antenna adhered to the inner left wall, clear of the optical path.
 -   **Center-of-Gravity (CoG) Ballast Attachment:** Dual bottom-corner anchor points for M4/M5 eye bolts and carabiner rigging, carrying an external counterweight tactical battery pouch.
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
 <br>
 
--   **Główne Zawieszenie (Górna Płyta):** Środkowe wycięcie (`Ø22 mm`) zaprojektowane dla zintegrowanego łożyska kołnierzowego F608 opierającego pręt gwintowany M8 / dynamiczną oś obrotu.
--   **Wewnętrzna Przegroda Napędowa:** Wycięcie pod serwo MG996R z metalową przekładnią wraz z 4 otworami montażowymi M3 (`49,5 × 10 mm`). Z odpadu wyciętego z gniazda serwa powstają dwa chwytaki w kształcie litery U (`20 × 20,5 mm`, szczelina `10 × 13,5 mm`), klejone pod spodem serwa i wsuwane od góry na krawędź smartfona.
+-   **Główne Zawieszenie (Górna Płyta):** Środkowe wycięcie (`Ø22 mm`) zaprojektowane dla zintegrowanego łożyska kołnierzowego F608 opierającego pręt gwintowany M8 / dynamiczną oś obrotu. *(Uwaga prototypowa: na etapie montażu wstępnego — w oczekiwaniu na dostawę docelowego łożyska F608 — dławiki kablowe zostały użyte wyłącznie jako tymczasowe prowadnice centrujące i stabilizujące pręt M8.)*
+-   **Bezluzowe Sprzęgło Serwo → Oś M8 (Orczyk 6-ramienny + Nakrętka M8):** Na serwie MG996R zastosowano standardowy **orczyk sześcioramienny** współpracujący bezpośrednio z **nakrętką sześciokątną M8** (6 płaskich ścianek) skontrowaną na pręcie M8. W wewnętrzne otwory wszystkich 6 ramion orczyka wciśnięto na ciasno stalowe gwoździki pozyskane z uchwytów do przewodów światłowodowych — każdy z 6 gwoździków opiera się płasko o jedną z 6 ścianek nakrętki M8, tworząc sztywne, bezluzowe sprzęgło kształtowe bez konieczności dorabiania toczonych redukcji.
+-   **Wewnętrzna Przegroda Napędowa i Chwytaki Smartfona:** Wycięcie pod serwo MG996R z metalową przekładnią wraz z 4 otworami montażowymi M3 (`49,5 × 10 mm`). Z odpadu wyciętego z gniazda serwa powstają dwa chwytaki w kształcie litery U (`20 × 20,5 mm`, szczelina `10 × 13,5 mm`), klejone pod spodem serwa i wsuwane od góry na krawędź smartfona.
 
 ![MG996R](9ME4004_D.webp)
 <br>
@@ -233,7 +237,7 @@ Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
 -   **Porty Akustyczne i Środowiskowe:**
   -   **Dolna membrana ePTFE (`Ø10 mm`):** Asymetryczny zawór wyrównujący ciśnienie i przepuszczający parę wodną w dolnym deklu.
   -   **Górny port akustyczny ePTFE (`Ø10 mm`):** Umieszczony centralnie w osi lewej ścianki bocznej (`175 mm` od dołu / `85 mm` od góry) dokładnie na wysokości górnego mikrofonu Galaxy XCover 5 — zapewnia równomierny nasłuch w sektorze wschodnim i zachodnim przy jednoczesnej ochronie przed szumem czołowego wiatru.
-  -   **Dolna baza USB-C i dławnica PG-13,5 (`Ø22 mm`):** Wycięty krążek `Ø22 mm` z otworu pod łożysko F608 jest wklejony centralnie (`214, 54`) w dolny dekiel jako podstawa pod kątowy adapter USB-C, natomiast otwór dławnicy kablowej `PG-13,5` (IP68) został przesunięty w stronę przedniej ścianki (`cy = 79.5`).
+  -   **Dolna baza USB-C, wnęka LoRa i dławnica PG-13,5 (`Ø22 mm`):** Wycięty krążek `Ø22 mm` z otworu pod łożysko F608 jest wklejony centralnie (`214, 54`) w dolny dekiel jako podstawa pod kątowy adapter USB-C, natomiast otwór dławnicy kablowej `PG-13,5` (IP68) został przesunięty w stronę przedniej ścianki (`cy = 79.5`). Zestaw `XIAO ESP32S3 & Wio-SX1262` osadzono na piance wibroizolacyjnej w lewym dolnym narożniku z anteną przyklejoną do wewnętrznej powierzchni lewej ścianki, poza polem widzenia kamer.
 -   **Balast Środka Ciężkości (CoG):** Dwa dolne punkty kotwiczące pod śruby z uchem M4/M5 i karabińczyki, przenoszące zewnętrzną taktyczną kieszeń na powerbank stanowiącą przeciwwagę.
 
 </details>
@@ -245,16 +249,16 @@ Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
 </div>
 
 1.  **Edge Preparation:** Remove protective masking along joint interfaces. Degrease all bonding faces with isopropanol (`Dragon IPA Cleaner Spray`) and pre-align perpendicular walls using 24 mm painter's masking tape.
-2.  **Internal M3 Brass Standoff Frame (80 mm Span):** Before bonding, assemble the 4 corner tie-rods using standard **M3 brass hex standoffs (`Aoqdqdqd 120 pcs` kit)** stacked in series to match the exact **80 mm** internal width of the side walls (e.g., `2× M3×20+6 mm` + `2× M3×15+6 mm` + `1× M3×10 mm` = `80 mm` per corner, or `3× M3×20+6 mm` + `1× M3×20 mm`), secured at both ends with **8× M3×6 mm screws**. This rigid internal skeleton squares the entire enclosure during adhesive curing and allows tool-assisted removal of both the front service hatch and the rear optical wall without gluing corner blocks or heat-set inserts.
-3.  **Structural Bonding & Offcut Spacers:** Bond the main enclosure joints, U-shaped smartphone retention clips, and the bottom USB-C pedestal disc using 2-component 5-minute epoxy adhesive (`Dragon Distal`, 25 ml syringe recommended) or capillary PMMA solvent cement (`Acrifix 116 / 192`). Laser-cut offcut elements — 12× blocks (`15 × 15 mm`, cut from the heatsink window) and 8× spacer blocks (`15 × 8 mm`, cut below the servo shelf) — are retained as optional internal gussets and standoffs.
+2.  **Mandatory Offcut Bonding Blocks (6 Top + 6 Bottom):** All 12× laser-cut PMMA squares (`15 × 15 mm` from the heatsink window) are mandatory structural elements. Bond them in sets of **6 on the top lid** and **6 on the bottom lid** (3 evenly spaced along each long edge) using 2-component 5-minute epoxy adhesive (`Dragon Distal`, 25 ml syringe recommended). These blocks dramatically increase the epoxy joint surface area and create rigid mechanical seats against which the corner standoffs brace.
+3.  **Internal M3 Brass Standoff Frame (80 mm Span):** Assemble the 4 corner tie-rods using standard **M3 brass hex standoffs (`Aoqdqdqd 120 pcs` kit)** stacked in series to match the exact **80 mm** internal width of the side walls (e.g., `2× M3×20+6 mm` + `2× M3×15+6 mm` + `1× M3×10 mm` = `80 mm` per corner, or `3× M3×20+6 mm` + `1× M3×20 mm`), secured at both ends with **8× M3×6 mm screws**. Resting directly against the bonded `15 × 15 mm` lid blocks, this rigid internal skeleton squares the entire enclosure during adhesive curing and allows tool-assisted removal of both the front service hatch and the rear optical wall without gluing corner blocks or heat-set inserts. *(The 8× `15 × 8 mm` offcut blocks cut below the servo shelf remain available as optional internal spacers.)*
 
 <details>
 <summary>🇵🇱 [Kliknij Trójkąt Po Lewej Stronie Aby Rozwinąć Opis w Języku Polskim]</summary>
 <br>
 
 1.  **Przygotowanie Krawędzi:** Usuń folię ochronną wzdłuż powierzchni łączeń. Odtłuść wszystkie powierzchnie klejenia izopropanolem (`Dragon IPA Cleaner Spray`) i spozycjonuj prostopadłe ścianki za pomocą taśmy malarskiej 24 mm.
-2.  **Wewnętrzny Szkielet z Mosiężnych Dystansów M3 (rozstaw 80 mm):** Przed klejeniem skręć 4 narożne przeloty z **mosiężnych tulei dystansowych M3 (zestaw `Aoqdqdqd 120 szt.`)**, łącząc je szeregowo na dokładną szerokość wewnętrzną ścianek bocznych **80 mm** (np. `2× M3×20+6 mm` + `2× M3×15+6 mm` + `1× M3×10 mm` = `80 mm` na narożnik lub `3× M3×20+6 mm` + `1× M3×20 mm`) i domykając z obu stron **8× śrubami M3×6 mm**. Taki sztywny szkielet nadaje obudowie idealną geometrię na czas wiązania kleju oraz umożliwia pełny demontaż przedniej klapy rewizyjnej i tylnej ścianki optycznej bez konieczności wklejania klocków narożnych i wtapiania gwintów.
-3.  **Klejenie Konstrukcyjne i Dystanse z Odpadów:** Połącz ścianki obudowy, chwytaki smartfona oraz dolny krążek pod wtyk USB-C używając dwuskładnikowego kleju epoksydowego 5 min (`Dragon Distal`, zalecana strzykawka 25 ml) lub kapilarnego kleju rozpuszczalnikowego do PMMA (`Acrifix 116 / 192`). Elementy wycięte z odpadów — 12× kostek (`15 × 15 mm` z okna radiatora) oraz 8× klocków (`15 × 8 mm` spod półki serwa) — stanowią opcjonalne wzmocnienia i dystanse wewnętrzne.
+2.  **Obowiązkowe Klocki Wiążące z Odpadów (6 Góra + 6 Dół):** Wszystkie 12× wyciętych kwadratów PMMA (`15 × 15 mm` z okna radiatora) stanowi obowiązkowy element konstrukcyjny. Należy je wkleić po **6 sztuk na górnym deklu** i **6 sztuk na dolnym deklu** (po 3 równomiernie rozłożone wzdłuż dłuższych krawędzi) za pomocą dwuskładnikowego kleju epoksydowego 5 min (`Dragon Distal`, zalecana strzykawka 25 ml). Klocki te wielokrotnie zwiększają powierzchnię spoiny klejowej oraz tworzą sztywne punkty oporu dla narożnych dystansów.
+3.  **Wewnętrzny Szkielet z Mosiężnych Dystansów M3 (rozstaw 80 mm):** Skręć 4 narożne przeloty z **mosiężnych tulei dystansowych M3 (zestaw `Aoqdqdqd 120 szt.`)**, łącząc je szeregowo na dokładną szerokość wewnętrzną ścianek bocznych **80 mm** (np. `2× M3×20+6 mm` + `2× M3×15+6 mm` + `1× M3×10 mm` = `80 mm` na narożnik lub `3× M3×20+6 mm` + `1× M3×20 mm`) i domykając z obu stron **8× śrubami M3×6 mm**. Dystanse zapierają się bezpośrednio o wklejone w dekle kwadraty `15 × 15 mm`, tworząc sztywny szkielet pozycjonujący obudowę na czas wiązania kleju i umożliwiający pełny demontaż przedniej klapy rewizyjnej oraz tylnej ścianki optycznej bez konieczności wtapiania gwintów. *(Dodatkowe 8× klocków `15 × 8 mm` wyciętych spod półki serwa służy jako opcjonalne dystanse wewnętrzne.)*
 
 </details>
 
