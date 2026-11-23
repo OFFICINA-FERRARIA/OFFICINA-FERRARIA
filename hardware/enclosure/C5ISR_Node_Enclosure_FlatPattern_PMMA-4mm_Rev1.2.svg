@@ -22,6 +22,16 @@
     <circle cx="315.25" cy="55" r="1.75" stroke="#dc143c" />
     <circle cx="364.75" cy="45" r="1.75" stroke="#dc143c" />
     <circle cx="364.75" cy="55" r="1.75" stroke="#dc143c" />
+    
+    <!-- Pasek 120x8 mm pod półką (8 klocków 15x8 mm, wspólne linie cięcia, odsunięty po 6 mm od półki i pleców) -->
+    <line x1="305" y1="96" x2="305" y2="104" stroke="#dc143c" />
+    <line x1="320" y1="96" x2="320" y2="104" stroke="#dc143c" />
+    <line x1="335" y1="96" x2="335" y2="104" stroke="#dc143c" />
+    <line x1="350" y1="96" x2="350" y2="104" stroke="#dc143c" />
+    <line x1="365" y1="96" x2="365" y2="104" stroke="#dc143c" />
+    <line x1="380" y1="96" x2="380" y2="104" stroke="#dc143c" />
+    <line x1="395" y1="96" x2="395" y2="104" stroke="#dc143c" />
+    <rect x="290" y="96" width="120" height="8" stroke="#dc143c" />
 
     <!-- 4. FASADA FRONTOWA / KLAPA REWIZYJNA (260x128 mm) -->
     <rect x="10" y="110" width="260" height="128" />
@@ -43,6 +53,14 @@
     <!-- 7. ŚCIANKA BOCZNA PRAWA Z RADIATOREM (260x80 mm) -->
     <rect x="290" y="250" width="260" height="80" />
     <rect x="370" y="270" width="100" height="40" stroke="#dc143c" /> <!-- Wycięcie na radiator -->
+    <!-- Siatka 6x2 = 12 kwadracików 15x15 mm (wspólne linie cięcia, ramka 5 mm) -->
+    <line x1="390" y1="275" x2="390" y2="305" stroke="#dc143c" />
+    <line x1="405" y1="275" x2="405" y2="305" stroke="#dc143c" />
+    <line x1="420" y1="275" x2="420" y2="305" stroke="#dc143c" />
+    <line x1="435" y1="275" x2="435" y2="305" stroke="#dc143c" />
+    <line x1="450" y1="275" x2="450" y2="305" stroke="#dc143c" />
+    <line x1="375" y1="290" x2="465" y2="290" stroke="#dc143c" />
+    <rect x="375" y="275" width="90" height="30" stroke="#dc143c" />
 
   </g>
 </svg>

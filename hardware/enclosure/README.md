@@ -228,42 +228,70 @@ Super Source: https://make.net.za/product/mg996r-servo-motor-analog-180-degrees
 <h2 dir="auto">🇺🇸 / 🇵🇱 5. Raw Vector Data (`.svg`)</h2>
 </div>
 
-```xml
+```svg
 <svg xmlns="http://www.w3.org/2000/svg" width="600mm" height="400mm" viewBox="0 0 600 400">
-  <g stroke="black" stroke-width="0.5" fill="none">
+  <g stroke="#dc143c" stroke-width="0.5" fill="none">
     
     <!-- 1. DEKIEL GÓRNY (128x88 mm) -->
     <rect x="10" y="10" width="128" height="88" />
-    <circle cx="74" cy="54" r="11" stroke="red" /> <!-- Otwór na łożysko 608 -->
-    <circle cx="25" cy="54" r="5" stroke="blue" /> <!-- Górna membrana ePTFE -->
-    
+    <circle cx="74" cy="54" r="11" stroke="#dc143c" /> <!-- Otwór na łożysko 608 -->
+
     <!-- 2. DEKIEL DOLNY (128x88 mm) -->
     <rect x="150" y="10" width="128" height="88" />
-    <circle cx="174" cy="54" r="2" stroke="black" /> <!-- Lewy otwór na hak M4 -->
-    <circle cx="254" cy="54" r="2" stroke="black" /> <!-- Prawy otwór na hak M4 -->
-    <circle cx="214" cy="34" r="5" stroke="blue" /> <!-- Dolna membrana ePTFE -->
-    <circle cx="214" cy="74" r="6" stroke="green" /> <!-- Przepust kablowy / Dławnica M12 -->
+    <circle cx="174" cy="54" r="2" stroke="#dc143c" /> <!-- Lewy otwór na hak M4 -->
+    <circle cx="254" cy="54" r="2" stroke="#dc143c" /> <!-- Prawy otwór na hak M4 -->
+    <circle cx="214" cy="34" r="5" stroke="#dc143c" /> <!-- Dolna membrana ePTFE -->
+    <circle cx="214" cy="74" r="6" stroke="#dc143c" /> <!-- Przepust kablowy / Dławnica M12 -->
 
     <!-- 3. WEWNĘTRZNA PÓŁKA NOŚNA NA SERWO (120x80 mm) -->
     <rect x="290" y="10" width="120" height="80" />
-    <rect x="319.5" y="40" width="41" height="20" stroke="purple" /> <!-- Wycięcie na serwo MG996R -->
+    <rect x="319.5" y="40" width="41" height="20" stroke="#dc143c" /> <!-- Wycięcie na serwo MG996R -->
+    <line x1="340" y1="40" x2="340" y2="60" stroke="#dc143c" /> <!-- Podział odpadu na 2 chwytaki (20x20.5 mm) -->
+    <path d="M 319.5 45 L 333 45 L 333 55 L 319.5 55" stroke="#dc143c" /> <!-- Chwytak lewy (obrócony 90°): szczelina 10x13.5 mm -->
+    <path d="M 360.5 45 L 347 45 L 347 55 L 360.5 55" stroke="#dc143c" /> <!-- Chwytak prawy (obrócony 90°): szczelina 10x13.5 mm -->
+    <circle cx="315.25" cy="45" r="1.75" stroke="#dc143c" /> <!-- Otwory M3 pod serwo (rozstaw 49.5 x 10 mm) -->
+    <circle cx="315.25" cy="55" r="1.75" stroke="#dc143c" />
+    <circle cx="364.75" cy="45" r="1.75" stroke="#dc143c" />
+    <circle cx="364.75" cy="55" r="1.75" stroke="#dc143c" />
+    
+    <!-- Pasek 120x8 mm pod półką (8 klocków 15x8 mm, wspólne linie cięcia, odsunięty po 6 mm od półki i pleców) -->
+    <line x1="305" y1="96" x2="305" y2="104" stroke="#dc143c" />
+    <line x1="320" y1="96" x2="320" y2="104" stroke="#dc143c" />
+    <line x1="335" y1="96" x2="335" y2="104" stroke="#dc143c" />
+    <line x1="350" y1="96" x2="350" y2="104" stroke="#dc143c" />
+    <line x1="365" y1="96" x2="365" y2="104" stroke="#dc143c" />
+    <line x1="380" y1="96" x2="380" y2="104" stroke="#dc143c" />
+    <line x1="395" y1="96" x2="395" y2="104" stroke="#dc143c" />
+    <rect x="290" y="96" width="120" height="8" stroke="#dc143c" />
 
     <!-- 4. FASADA FRONTOWA / KLAPA REWIZYJNA (260x128 mm) -->
     <rect x="10" y="110" width="260" height="128" />
-    <circle cx="16" cy="116" r="1.75" stroke="black" /> <!-- Otwory M3 -->
-    <circle cx="264" cy="116" r="1.75" stroke="black" />
-    <circle cx="16" cy="232" r="1.75" stroke="black" />
-    <circle cx="264" cy="232" r="1.75" stroke="black" />
+    <circle cx="16" cy="116" r="1.75" stroke="#dc143c" /> <!-- Otwory M3 -->
+    <circle cx="264" cy="116" r="1.75" stroke="#dc143c" />
+    <circle cx="16" cy="232" r="1.75" stroke="#dc143c" />
+    <circle cx="264" cy="232" r="1.75" stroke="#dc143c" />
 
-    <!-- 5. ŚCIANKA TYLNA - PEŁNA (260x128 mm) -->
+    <!-- 5. ŚCIANKA TYLNA (260x128 mm) -->
     <rect x="290" y="110" width="260" height="128" />
+    <circle cx="296" cy="116" r="1.75" stroke="#dc143c" /> <!-- Otwory M3 -->
+    <circle cx="544" cy="116" r="1.75" stroke="#dc143c" />
+    <circle cx="296" cy="232" r="1.75" stroke="#dc143c" />
+    <circle cx="544" cy="232" r="1.75" stroke="#dc143c" />
 
     <!-- 6. ŚCIANKA BOCZNA LEWA - PEŁNA (260x80 mm) -->
     <rect x="10" y="250" width="260" height="80" />
 
     <!-- 7. ŚCIANKA BOCZNA PRAWA Z RADIATOREM (260x80 mm) -->
     <rect x="290" y="250" width="260" height="80" />
-    <rect x="370" y="270" width="100" height="40" stroke="orange" /> <!-- Wycięcie na radiator -->
+    <rect x="370" y="270" width="100" height="40" stroke="#dc143c" /> <!-- Wycięcie na radiator -->
+    <!-- Siatka 6x2 = 12 kwadracików 15x15 mm (wspólne linie cięcia, ramka 5 mm) -->
+    <line x1="390" y1="275" x2="390" y2="305" stroke="#dc143c" />
+    <line x1="405" y1="275" x2="405" y2="305" stroke="#dc143c" />
+    <line x1="420" y1="275" x2="420" y2="305" stroke="#dc143c" />
+    <line x1="435" y1="275" x2="435" y2="305" stroke="#dc143c" />
+    <line x1="450" y1="275" x2="450" y2="305" stroke="#dc143c" />
+    <line x1="375" y1="290" x2="465" y2="290" stroke="#dc143c" />
+    <rect x="375" y="275" width="90" height="30" stroke="#dc143c" />
 
   </g>
 </svg>
